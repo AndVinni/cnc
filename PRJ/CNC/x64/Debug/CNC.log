@@ -1,0 +1,12 @@
+﻿  CNCOTL.CPP
+D:\CNC\CNCBIN\CNCOTL.CPP(2,10): fatal error C1083: Не удается открыть файл включение: cnchard.h: No such file or directory,
+  CNCHARD.CPP
+D:\CNC\CNCCOM\CNCHARD.CPP(15,10): fatal error C1083: Не удается открыть файл включение: cncsfspr.h: No such file or directory,
+  CNCUN1.CPP
+D:\CNC\CNCCOM\CNCUN1.CPP(5,10): fatal error C1083: Не удается открыть файл включение: cnccdef.h: No such file or directory,
+  CNCUN2.CPP
+D:\CNC\CNCCOM\CNCUN2.CPP(3,10): fatal error C1083: Не удается открыть файл включение: cnccdef.h: No such file or directory,
+  CNCUN3.CPP
+D:\CNC\CNCCOM\CNCUN3.CPP(3,10): fatal error C1083: Не удается открыть файл включение: cnccdef.h: No such file or directory,
+  Выполнение Code Analysis для C/C++...
+  Создание кода...

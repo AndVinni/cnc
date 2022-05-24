@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/cnc/cnccom/cncun3.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f7dd6ba14d081af9830aaa6ea6b7a4349dd62eefd02e8c25e287b0e312fbd970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cnc/cnccom/cnchard.h"
+          },
+          "hashes": {
+            "sha-256": "1d648bdfca3c6703c381a9a249c7b585b52014a32834dc5add5ba5ec4dd9b4ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cnc/cnccom/cncraz.h"
+          },
+          "hashes": {
+            "sha-256": "0a0807d961d9f364aa9551a256f2d7b6634798eea467afe3d30f29c4bc0f4b97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cnc/cncdrc/cnccdef.h"
+          },
+          "hashes": {
+            "sha-256": "46837a177efc57954bd8e44fc6943d49d966f393761036d424921c48bd144804"
+          }
+        }
+      ]
+    }
+  ]
+}

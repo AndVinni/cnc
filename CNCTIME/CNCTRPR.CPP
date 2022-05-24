@@ -1,0 +1,64 @@
+/*            Проект   CNC++ V01.
+		 Тема CNCSHOW 
+
+  Программа связи с контроллером сервопривода
+	 по паралельному порту принтера
+		   
+   Продукция Отдела исследований и внедрения
+	   систем ЧПУ и электоприводов
+	       СКБ ОЦ ГСПО Кирова
+
+		Гомель. 1991 г.
+*/
+
+#include <dos.h>
+#include "cnchard.h"
+#include "cncraz.h"
+#include "cnccdef.h"
+#include "cnccsti.h"
+#include "cncint.h"
+#include "cncsfun.h"
+
+/* Вывод информации в быстрый канал связи с контроллером сервопривода*/
+
+void outqup()
+{
+	asm push cx       /* Счетчик */
+	asm push dx       /* Рабочий регистр */
+	asm mov cx,xnout  /* Количество циклов */
+	/* Выставляем данные */
+//	disable();
+
+//	_DX=ContrReg;
+//	asm dec dx
+//	asm mov ah,0x87                           /* Строб -ASK */
+//w:	asm in al,dx
+//	asm cmp al,ah
+//	asm jne con	
+
+lp:	_DX=DataReg;                        /* 0x?78  */
+	_AL=*(*(wout+(_CX-1)));
+	asm out dx,al                             /* 0x?78 */
+	/* Выставляем строб данных */
+	_DX=ContrReg;
+	asm mov al,1
+	asm out dx,al                             /* 0x?7A */
+	/* Ждем ответа */                         /* 0x?79 */
+	asm dec dx
+	asm mov ah,0x47                           /* Строб -ASK */
+wait:	asm in al,dx
+	asm cmp al,ah
+	asm jne wait
+	/* Снимаем строб данные готовы */
+	asm inc dx
+	asm xor al,al
+	asm out dx,al                             /* 0x?7A */
+	asm loop lp
+con:	asm pop dx
+	asm pop cx
+	//enable();
+
+}			/* End outqup */
+
+
+

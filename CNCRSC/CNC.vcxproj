@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{243FBF5F-F717-4F17-BE92-508692A409E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tvision\source\COLORSEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\DRIVERS.CPP" />
+    <ClCompile Include="..\..\tvision\source\DRIVERS2.CPP" />
+    <ClCompile Include="..\..\tvision\source\EDITSTAT.CPP" />
+    <ClCompile Include="..\..\tvision\source\GENINC.CPP" />
+    <ClCompile Include="..\..\tvision\source\GRP.CPP" />
+    <ClCompile Include="..\..\tvision\source\HARDWRVR.CPP" />
+    <ClCompile Include="..\..\tvision\source\HELP.CPP" />
+    <ClCompile Include="..\..\tvision\source\HELPBASE.CPP" />
+    <ClCompile Include="..\..\tvision\source\HISTLIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\MAPCOLOR.CPP" />
+    <ClCompile Include="..\..\tvision\source\MENU.CPP" />
+    <ClCompile Include="..\..\tvision\source\MISC.CPP" />
+    <ClCompile Include="..\..\tvision\source\MSGBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\NEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\NEWSTR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMBKGRND.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMBUTTON.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMCHDRDL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMCHKBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMCLRSEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMCLUSTR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMCOLLCT.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMDIALOG.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMDIRBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMDIRCOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMDSKTOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMEDITOR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMFILCOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMFILDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMFILLST.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMFRAME.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMGROUP.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMHIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMINPTLN.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMLABEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMLSTBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMLSTVWR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMMNUBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMMNUBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMMNUPOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMMNUVW.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMMULCHK.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMOUTLIN.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMPRMTXT.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMRBTNS.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMRESCOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSCRBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSCROLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSTCTXT.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSTDDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSTLINE.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSTRCOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMSTRLST.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMVALIDA.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\NMWINDOW.CPP" />
+    <ClCompile Include="..\..\tvision\source\PALETTE.CPP" />
+    <ClCompile Include="..\..\tvision\source\SBKGRND.CPP" />
+    <ClCompile Include="..\..\tvision\source\SBUTTON.CPP" />
+    <ClCompile Include="..\..\tvision\source\SCHDRDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\SCHECKBO.CPP" />
+    <ClCompile Include="..\..\tvision\source\SCLRSEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SCLUSTER.CPP" />
+    <ClCompile Include="..\..\tvision\source\SDESKTOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\SDIALOG.CPP" />
+    <ClCompile Include="..\..\tvision\source\SDIRCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SDIRLIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\SEDITORS.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFILCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFILDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFILELST.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFINFPNE.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFINPUTL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SFRAME.CPP" />
+    <ClCompile Include="..\..\tvision\source\SGROUP.CPP" />
+    <ClCompile Include="..\..\tvision\source\SHISTORY.CPP" />
+    <ClCompile Include="..\..\tvision\source\SINPUTLI.CPP" />
+    <ClCompile Include="..\..\tvision\source\SLABEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SLISTBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\SLSTVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\SMENUBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\SMENUBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\SMENUPOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\SMNUVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\SMULCHKB.CPP" />
+    <ClCompile Include="..\..\tvision\source\SOUTLINE.CPP" />
+    <ClCompile Include="..\..\tvision\source\SPARAMTE.CPP" />
+    <ClCompile Include="..\..\tvision\source\SRADIOBU.CPP" />
+    <ClCompile Include="..\..\tvision\source\SRESCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSCRLBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSCROLLE.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSTATICT.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSTATUSL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSTRCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\SSTRLST.CPP" />
+    <ClCompile Include="..\..\tvision\source\STDDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\STRMSTAT.CPP" />
+    <ClCompile Include="..\..\tvision\source\SVALID.CPP" />
+    <ClCompile Include="..\..\tvision\source\SVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\SWINDOW.CPP" />
+    <ClCompile Include="..\..\tvision\source\SYSERR.CPP" />
+    <ClCompile Include="..\..\tvision\source\TAPPLICA.CPP" />
+    <ClCompile Include="..\..\tvision\source\TBKGRND.CPP" />
+    <ClCompile Include="..\..\tvision\source\TBUTTON.CPP" />
+    <ClCompile Include="..\..\tvision\source\TCHDRDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\TCHECKBO.CPP" />
+    <ClCompile Include="..\..\tvision\source\TCLUSTER.CPP" />
+    <ClCompile Include="..\..\tvision\source\TCMDSET.CPP" />
+    <ClCompile Include="..\..\tvision\source\TCOLLECT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TDESKTOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\TDIALOG.CPP" />
+    <ClCompile Include="..\..\tvision\source\TDIRCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TDIRLIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\TEDITOR1.CPP" />
+    <ClCompile Include="..\..\tvision\source\TEDITOR2.CPP" />
+    <ClCompile Include="..\..\tvision\source\TEDITWND.CPP" />
+    <ClCompile Include="..\..\tvision\source\TEVENT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TEXTVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\TFILDLG.CPP" />
+    <ClCompile Include="..\..\tvision\source\TFILECOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TFILEDTR.CPP" />
+    <ClCompile Include="..\..\tvision\source\TFILLIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\TFRAME.CPP" />
+    <ClCompile Include="..\..\tvision\source\TGROUP.CPP" />
+    <ClCompile Include="..\..\tvision\source\THISTORY.CPP" />
+    <ClCompile Include="..\..\tvision\source\THISTWIN.CPP" />
+    <ClCompile Include="..\..\tvision\source\THSTVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\TINDICTR.CPP" />
+    <ClCompile Include="..\..\tvision\source\TINPUTLI.CPP" />
+    <ClCompile Include="..\..\tvision\source\TLABEL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TLISTBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\TLSTVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMEMO.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMENUBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMENUBOX.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMENUPOP.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMNUVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMOUSE.CPP" />
+    <ClCompile Include="..\..\tvision\source\TMULCHKB.CPP" />
+    <ClCompile Include="..\..\tvision\source\TOBJECT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TOBJSTRM.CPP" />
+    <ClCompile Include="..\..\tvision\source\TOUTLINE.CPP" />
+    <ClCompile Include="..\..\tvision\source\TPARAMTE.CPP" />
+    <ClCompile Include="..\..\tvision\source\TPOINT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TPROGRAM.CPP" />
+    <ClCompile Include="..\..\tvision\source\TRADIOBU.CPP" />
+    <ClCompile Include="..\..\tvision\source\TRESCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TRESFILE.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSCREEN.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSCRLBAR.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSCROLLE.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSORTCOL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSTATICT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSTATUSL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSTRCOLL.CPP" />
+    <ClCompile Include="..\..\tvision\source\TSTRLIST.CPP" />
+    <ClCompile Include="..\..\tvision\source\TVALIDAT.CPP" />
+    <ClCompile Include="..\..\tvision\source\TVIEW.CPP" />
+    <ClCompile Include="..\..\tvision\source\TVTEXT1.CPP" />
+    <ClCompile Include="..\..\tvision\source\TVTEXT2.CPP" />
+    <ClCompile Include="..\..\tvision\source\TWINDOW.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCAUTO.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCFRS.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCMAN.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCOUTK.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCREF.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCRM.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCRRDP.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCSTR.CPP" />
+    <ClCompile Include="..\cnccamp\CNCCTOK.CPP" />
+    <ClCompile Include="..\cncci\CNCCICRS.CPP" />
+    <ClCompile Include="..\cncci\CNCCICT.CPP" />
+    <ClCompile Include="..\cncci\CNCCIEQV.CPP" />
+    <ClCompile Include="..\cncci\CNCCIINP.CPP" />
+    <ClCompile Include="..\cncci\CNCCIKCN.CPP" />
+    <ClCompile Include="..\cncci\CNCCIKRG.CPP" />
+    <ClCompile Include="..\cncci\CNCCILL.CPP" />
+    <ClCompile Include="..\cncci\CNCCILMT.CPP" />
+    <ClCompile Include="..\cncci\CNCCIMRR.CPP" />
+    <ClCompile Include="..\cncci\CNCCIPOL.CPP" />
+    <ClCompile Include="..\cncci\CNCCIRDS.CPP" />
+    <ClCompile Include="..\cncci\CNCCIRNC.CPP" />
+    <ClCompile Include="..\cncci\CNCCIRND.CPP" />
+    <ClCompile Include="..\cncci\CNCCISM0.CPP" />
+    <ClCompile Include="..\cncci\CNCCISVL.CPP" />
+    <ClCompile Include="..\cncci\CNCCIUNA.CPP" />
+    <ClCompile Include="..\cnccom\CNCCSTAT.CPP" />
+    <ClCompile Include="..\cnccom\CNCCSTI.CPP" />
+    <ClCompile Include="..\cnccom\CNCED.CPP" />
+    <ClCompile Include="..\cnccom\CNCHARD.CPP" />
+    <ClCompile Include="..\cnccom\CNCINT.CPP" />
+    <ClCompile Include="..\cnccom\CNCINTB.CPP" />
+    <ClCompile Include="..\cnccom\CNCINTF.CPP" />
+    <ClCompile Include="..\cnccom\CNCINTH.CPP" />
+    <ClCompile Include="..\cnccom\CNCIOPAR.CPP" />
+    <ClCompile Include="..\cnccom\CNCPAR.CPP" />
+    <ClCompile Include="..\cnccom\CNCUN1.CPP" />
+    <ClCompile Include="..\cnccom\CNCUN2.CPP" />
+    <ClCompile Include="..\cnccom\CNCUN3.CPP" />
+    <ClCompile Include="..\cnccom\CNCUNPAC.CPP" />
+    <ClCompile Include="..\cncdrc\CNCCAMP.CPP" />
+    <ClCompile Include="..\cncdrc\CNCDCAP.CPP" />
+    <ClCompile Include="..\cncdrc\CNCDRC.CPP" />
+    <ClCompile Include="..\cncdrc\CNCDRCH.CPP" />
+    <ClCompile Include="..\cncdrc\CNCDTIME.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIAX.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIEOK.CPP" />
+    <ClCompile Include="..\cncdrc\CNCILIN.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIPOS.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIPOSS.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIREF.CPP" />
+    <ClCompile Include="..\cncdrc\CNCIREFS.CPP" />
+    <ClCompile Include="..\cncdrc\CNCMUP.CPP" />
+    <ClCompile Include="..\cncdrc\CNCSUPR.CPP" />
+    <ClCompile Include="..\cncdrc\CNCTCOM2.CPP" />
+    <ClCompile Include="..\cncdrc\CNCTEND.CPP" />
+    <ClCompile Include="..\cncdrc\CNCXUPR.CPP" />
+    <ClCompile Include="..\cncserr\AVTOYP.CPP" />
+    <ClCompile Include="..\cncserr\DIAG.CPP" />
+    <ClCompile Include="..\cncserr\GLAV.CPP" />
+    <ClCompile Include="..\cncserr\MISTAKE.CPP" />
+    <ClCompile Include="..\cncserr\OB_IN.CPP" />
+    <ClCompile Include="..\cncserr\OB_KON.CPP" />
+    <ClCompile Include="..\cncserr\OB_KON2.CPP" />
+    <ClCompile Include="..\cncserr\OB_OUT.CPP" />
+    <ClCompile Include="..\cncserr\ZAPIC.CPP" />
+    <ClCompile Include="..\cncshow\CNCSAUTO.CPP" />
+    <ClCompile Include="..\cncshow\CNCSBEG.CPP" />
+    <ClCompile Include="..\cncshow\CNCSCMPR.CPP" />
+    <ClCompile Include="..\cncshow\CNCSCR.CPP" />
+    <ClCompile Include="..\cncshow\CNCSCWND.CPP" />
+    <ClCompile Include="..\cncshow\CNCSDIAG.CPP" />
+    <ClCompile Include="..\cncshow\CNCSEDIT.CPP" />
+    <ClCompile Include="..\cncshow\CNCSFH.CPP" />
+    <ClCompile Include="..\cncshow\CNCSFSPR.CPP" />
+    <ClCompile Include="..\cncshow\CNCSFUN.CPP" />
+    <ClCompile Include="..\cncshow\CNCSGDC.CPP" />
+    <ClCompile Include="..\cncshow\CNCSGEOM.CPP" />
+    <ClCompile Include="..\cncshow\CNCSGSC.CPP" />
+    <ClCompile Include="..\cncshow\CNCSGSTR.CPP" />
+    <ClCompile Include="..\cncshow\CNCSHOW.CPP" />
+    <ClCompile Include="..\cncshow\CNCSJOG.CPP" />
+    <ClCompile Include="..\cncshow\CNCSKOR.CPP" />
+    <ClCompile Include="..\cncshow\CNCSMAN.CPP" />
+    <ClCompile Include="..\cncshow\CNCSRMSG.CPP" />
+    <ClCompile Include="..\cncshow\CNCSTED.CPP" />
+    <ClCompile Include="..\cncshow\CNCSTEDC.CPP" />
+    <ClCompile Include="..\cncshow\CNCSTIO.CPP" />
+    <ClCompile Include="..\cncshow\CNCSVAR.CPP" />
+    <ClCompile Include="..\cncshow\CNCTEDI.CPP" />
+    <ClCompile Include="..\cncstrea\CNCSTBUF.CPP" />
+    <ClCompile Include="..\cncstrea\DEVPRO.CPP" />
+    <ClCompile Include="..\cncstrea\DEVPRORE.CPP" />
+    <ClCompile Include="..\cncstrea\DEVPROTR.CPP" />
+    <ClCompile Include="..\cncstrea\ISERDEV.CPP" />
+    <ClCompile Include="..\cncstrea\MAIN.CPP" />
+    <ClCompile Include="..\cncstrea\SERDEVIC.CPP" />
+    <ClCompile Include="..\cncstrea\SERRESIV.CPP" />
+    <ClCompile Include="..\cncstrea\SERTRANS.CPP" />
+    <ClCompile Include="..\cncstrea\STRBUREG.CPP" />
+    <ClCompile Include="..\cnctime\CNCTBGN.CPP" />
+    <ClCompile Include="..\cnctime\CNCTCM.CPP" />
+    <ClCompile Include="..\cnctime\CNCTCOM1.CPP" />
+    <ClCompile Include="..\cnctime\CNCTIME.CPP" />
+    <ClCompile Include="..\cnctime\CNCTINFM.CPP" />
+    <ClCompile Include="..\cnctime\CNCTIO.CPP" />
+    <ClCompile Include="..\cnctime\CNCTMFUN.CPP" />
+    <ClCompile Include="..\cnctime\CNCTMM.CPP" />
+    <ClCompile Include="..\cnctime\CNCTPOIN.CPP" />
+    <ClCompile Include="..\cnctime\CNCTRC1.CPP" />
+    <ClCompile Include="..\cnctime\CNCTRC2.CPP" />
+    <ClCompile Include="..\cnctime\CNCTRES.CPP" />
+    <ClCompile Include="..\cnctime\CNCTRPR.CPP" />
+    <ClCompile Include="..\cnctime\CNCTSM.CPP" />
+    <ClCompile Include="..\cnctime\CNCTSTP.CPP" />
+    <ClCompile Include="..\cnctime\CNCTSZR.CPP" />
+    <ClCompile Include="..\cnctime\MFUNK.CPP" />
+    <ClCompile Include="..\cnctime\NUMPOINT.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUANA.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUASIM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUENDS.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUFNM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUFNUM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUFOM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUFORM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUGR4.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUGRAN.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUINTF.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNP1.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNP2.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNP3.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNUL.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNUMF.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUNUMS.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUR_PR.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUSIM.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUWERR.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUWKP.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUZCP.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUZERO.CPP" />
+    <ClCompile Include="..\cncunpac\CNCUZSM.CPP" />
+    <ClCompile Include="..\cncunpac\FORM.CPP" />
+    <ClCompile Include="..\cncunpac\FORMP.CPP" />
+    <ClCompile Include="..\cncunpac\F_ERROR.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVCALC.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVCLIN.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVCLOC.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVEDNC.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVEQPR.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVGEOM.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVGRAP.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVHELP.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVISN.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVPULT.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVQPIT.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVRUS.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVSLIN.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVSTW.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVTEDT.CPP" />
+    <ClCompile Include="..\cncvisn\CNCVUTIL.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tvision\source\EDITS.ASM" />
+    <None Include="..\..\tvision\source\FRAMELIN.ASM" />
+    <None Include="..\..\tvision\source\HARDWARE.ASM" />
+    <None Include="..\..\tvision\source\SWAPST.ASM" />
+    <None Include="..\..\tvision\source\SYSINT.ASM" />
+    <None Include="..\..\tvision\source\TGRMV.ASM" />
+    <None Include="..\..\tvision\source\TTPRVLNS.ASM" />
+    <None Include="..\..\tvision\source\TV.INC" />
+    <None Include="..\..\tvision\source\TVCURSOR.ASM" />
+    <None Include="..\..\tvision\source\TVEXPOSD.ASM" />
+    <None Include="..\..\tvision\source\TVWRITE.ASM" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tvision\include\APP.H" />
+    <ClInclude Include="..\..\tvision\include\BUFFERS.H" />
+    <ClInclude Include="..\..\tvision\include\COLORSEL.H" />
+    <ClInclude Include="..\..\tvision\include\CONFIG.H" />
+    <ClInclude Include="..\..\tvision\include\DIALOGS.H" />
+    <ClInclude Include="..\..\tvision\include\DRAWBUF.H" />
+    <ClInclude Include="..\..\tvision\include\EDITORS.H" />
+    <ClInclude Include="..\..\tvision\include\HARDWARE.H" />
+    <ClInclude Include="..\..\tvision\include\HELP.H" />
+    <ClInclude Include="..\..\tvision\include\HELPBASE.H" />
+    <ClInclude Include="..\..\tvision\include\MENUS.H" />
+    <ClInclude Include="..\..\tvision\include\MSGBOX.H" />
+    <ClInclude Include="..\..\tvision\include\OBJECTS.H" />
+    <ClInclude Include="..\..\tvision\include\OUTLINE.H" />
+    <ClInclude Include="..\..\tvision\include\RESOURCE.H" />
+    <ClInclude Include="..\..\tvision\include\STDDLG.H" />
+    <ClInclude Include="..\..\tvision\include\SYSTEM.H" />
+    <ClInclude Include="..\..\tvision\include\TEXTVIEW.H" />
+    <ClInclude Include="..\..\tvision\include\TKEYS.H" />
+    <ClInclude Include="..\..\tvision\include\TOBJSTRM.H" />
+    <ClInclude Include="..\..\tvision\include\TTYPES.H" />
+    <ClInclude Include="..\..\tvision\include\TV.H" />
+    <ClInclude Include="..\..\tvision\include\TVOBJS.H" />
+    <ClInclude Include="..\..\tvision\include\UTIL.H" />
+    <ClInclude Include="..\..\tvision\include\VALIDATE.H" />
+    <ClInclude Include="..\..\tvision\include\VIEWS.H" />
+    <ClInclude Include="..\cnccom\CNCCLASS.H" />
+    <ClInclude Include="..\cnccom\CNCDIR.H" />
+    <ClInclude Include="..\cnccom\CNCED.H" />
+    <ClInclude Include="..\cnccom\CNCHARD.H" />
+    <ClInclude Include="..\cnccom\CNCINT.H" />
+    <ClInclude Include="..\cnccom\CNCINTB.H" />
+    <ClInclude Include="..\cnccom\CNCINTF.H" />
+    <ClInclude Include="..\cnccom\CNCIOPAR.H" />
+    <ClInclude Include="..\cnccom\CNCP.H" />
+    <ClInclude Include="..\cnccom\CNCPAR.H" />
+    <ClInclude Include="..\cnccom\CNCPARD.H" />
+    <ClInclude Include="..\cnccom\CNCRAZ.H" />
+    <ClInclude Include="..\cnccom\CNCUN1.H" />
+    <ClInclude Include="..\cnccom\CNCUN2.H" />
+    <ClInclude Include="..\cnccom\CNCUN3.H" />
+    <ClInclude Include="..\cnccom\CNCVOIDC.H" />
+    <ClInclude Include="..\cnccom\CNCVOIDI.H" />
+    <ClInclude Include="..\cnccom\CNCVOIDU.H" />
+    <ClInclude Include="..\cncdrc\CNCCDEF.H" />
+    <ClInclude Include="..\cncdrc\CNCCSTAT.H" />
+    <ClInclude Include="..\cncdrc\CNCCSTI.H" />
+    <ClInclude Include="..\cncdrc\CNCDCAP.H" />
+    <ClInclude Include="..\cncdrc\CNCDRCH.H" />
+    <ClInclude Include="..\cncdrc\CNCPLC.H" />
+    <ClInclude Include="..\cncdrc\CNCVOIDT.H" />
+    <ClInclude Include="..\cncshow\CNCP.H" />
+    <ClInclude Include="..\cncshow\CNCSAUTO.H" />
+    <ClInclude Include="..\cncshow\CNCSCMPR.H" />
+    <ClInclude Include="..\cncshow\CNCSCR.H" />
+    <ClInclude Include="..\cncshow\CNCSDIAG.H" />
+    <ClInclude Include="..\cncshow\CNCSEDIT.H" />
+    <ClInclude Include="..\cncshow\CNCSFH.H" />
+    <ClInclude Include="..\cncshow\CNCSFSPR.H" />
+    <ClInclude Include="..\cncshow\CNCSFUN.H" />
+    <ClInclude Include="..\cncshow\CNCSGEOM.H" />
+    <ClInclude Include="..\cncshow\CNCSGSTR.H" />
+    <ClInclude Include="..\cncshow\CNCSHOW.H" />
+    <ClInclude Include="..\cncshow\CNCSJOG.H" />
+    <ClInclude Include="..\cncshow\CNCSKOR.H" />
+    <ClInclude Include="..\cncshow\CNCSMAN.H" />
+    <ClInclude Include="..\cncshow\CNCSMULT.H" />
+    <ClInclude Include="..\cncshow\CNCSTED.H" />
+    <ClInclude Include="..\cncshow\CNCSTEDC.H" />
+    <ClInclude Include="..\cncshow\CNCSTEDI.H" />
+    <ClInclude Include="..\cncshow\CNCSTIO.H" />
+    <ClInclude Include="..\cncstrea\CHCONFIG.H" />
+    <ClInclude Include="..\cncstrea\CNCSTBUF.H" />
+    <ClInclude Include="..\cncstrea\DEVPRO.H" />
+    <ClInclude Include="..\cncstrea\DEVPRORE.H" />
+    <ClInclude Include="..\cncstrea\DEVPROTR.H" />
+    <ClInclude Include="..\cncstrea\ISERDEV.H" />
+    <ClInclude Include="..\cncstrea\PTRFUN.H" />
+    <ClInclude Include="..\cncstrea\SERDEVIC.H" />
+    <ClInclude Include="..\cncstrea\SERRESIV.H" />
+    <ClInclude Include="..\cncstrea\SERSTREA.H" />
+    <ClInclude Include="..\cncstrea\SERTRANS.H" />
+    <ClInclude Include="..\cncstrea\STRBUREG.H" />
+    <ClInclude Include="..\cncstrea\TTTCLSTP.H" />
+    <ClInclude Include="..\cncvisn\CNCVCALC.H" />
+    <ClInclude Include="..\cncvisn\CNCVCLIN.H" />
+    <ClInclude Include="..\cncvisn\CNCVCLOC.H" />
+    <ClInclude Include="..\cncvisn\CNCVCOM.H" />
+    <ClInclude Include="..\cncvisn\CNCVCOMD.H" />
+    <ClInclude Include="..\cncvisn\CNCVEDNC.H" />
+    <ClInclude Include="..\cncvisn\CNCVEQPR.H" />
+    <ClInclude Include="..\cncvisn\CNCVGEOM.H" />
+    <ClInclude Include="..\cncvisn\CNCVGRAP.H" />
+    <ClInclude Include="..\cncvisn\CNCVHELP.H" />
+    <ClInclude Include="..\cncvisn\CNCVHLPC.H" />
+    <ClInclude Include="..\cncvisn\CNCVISN.H" />
+    <ClInclude Include="..\cncvisn\CNCVPULT.H" />
+    <ClInclude Include="..\cncvisn\CNCVQPHC.H" />
+    <ClInclude Include="..\cncvisn\CNCVQPIT.H" />
+    <ClInclude Include="..\cncvisn\CNCVRUS.H" />
+    <ClInclude Include="..\cncvisn\CNCVSLIN.H" />
+    <ClInclude Include="..\cncvisn\CNCVSTW.H" />
+    <ClInclude Include="..\cncvisn\CNCVTEDT.H" />
+    <ClInclude Include="..\cncvisn\CNCVUTIL.H" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

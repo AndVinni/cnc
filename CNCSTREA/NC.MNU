@@ -1,0 +1,10 @@
+`: BORLAND C++
+  c:\bc\bin\bc
+S: ‘•€ˆ’œ …Š’
+  PKZIP -p -r stream.zip *.CPP *.H *.PRJ *.DSK *.TXT
+  del a:\stream.zip
+  copy stream.zip a:\
+  del *.zip
+R: ‚‘‘’€‚ˆ’œ …Š’
+  COPY A:\STREAM.ZIP C:
+  PKUNZIP -d STREAM.ZIP

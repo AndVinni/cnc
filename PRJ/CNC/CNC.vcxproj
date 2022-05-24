@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{64722ea3-b2e1-44b2-871a-45f9db9dd8d5}</ProjectGuid>
+    <RootNamespace>CNC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\CNC\CNCSHOW;D:\CNC\CNCUNPAC;D:\CNC\CNCTIME;D:\CNC\CNCSTREA;D:\CNC\CNCSERR;D:\CNC\CNCRSC;D:\CNC\CNCDRV;D:\CNC\CNCDOC;D:\CNC\CNCCOM;D:\CNC\CNCCI;D:\CNC\CNCCAMP;D:\CNC\CNCDRC</IncludePath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+    <ReferencePath>$(VC_ReferencesPath_x86)</ReferencePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);</LibraryWPath>
+    <PublicModuleDirectories>
+    </PublicModuleDirectories>
+    <PublicIncludeDirectories>
+    </PublicIncludeDirectories>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CNC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CNC.APS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CNCCAMP\CNCCAUTO.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCFRS.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCMAN.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCOUTK.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCREF.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCRM.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCRRDP.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCSTR.CPP" />
+    <ClCompile Include="..\..\CNCCAMP\CNCCTOK.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCICRS.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCICT.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIEQV.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIINP.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIKCN.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIKRG.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCILL.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCILMT.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIMRR.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIPOL.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIRDS.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIRNC.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIRND.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCISM0.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCISVL.CPP" />
+    <ClCompile Include="..\..\CNCCI\CNCCIUNA.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCCSTAT.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCCSTI.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCED.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCHARD.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCINT.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCINTB.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCINTF.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCINTH.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCIOPAR.CPP" />
+    <ClCompile Include="..\..\CNCCOM\CNCPAR.CPP" />
+    <ClCompile Include="..\..\CNCDRC\CNCTCOM2.CPP" />
+    <ClCompile Include="..\..\CNCDRC\CNCTEND.CPP" />
+    <ClCompile Include="..\..\CNCDRV\CNCICRFN.CPP" />
+    <ClCompile Include="..\..\CNCDRV\CNCIEOKS.CPP" />
+    <ClCompile Include="..\..\CNCDRV\CNCIRES.CPP" />
+    <ClCompile Include="..\..\CNCDRV\CNCISPOZ.CPP" />
+    <ClCompile Include="..\..\CNCDRV\CNCISREF.CPP" />
+    <ClCompile Include="..\..\CNCSERR\AVTOYP.CPP" />
+    <ClCompile Include="..\..\CNCSERR\DIAG.CPP" />
+    <ClCompile Include="..\..\CNCSERR\GLAV.CPP" />
+    <ClCompile Include="..\..\CNCSERR\MISTAKE.CPP" />
+    <ClCompile Include="..\..\CNCSERR\OB_IN.CPP" />
+    <ClCompile Include="..\..\CNCSERR\OB_KON.CPP" />
+    <ClCompile Include="..\..\CNCSERR\OB_KON2.CPP" />
+    <ClCompile Include="..\..\CNCSERR\OB_OUT.CPP" />
+    <ClCompile Include="..\..\CNCSERR\ZAPIC.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSAUTO.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSBEG.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSCMPR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSCR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSCWND.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSDIAG.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSEDIT.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSFH.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSFSPR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSFUN.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSGDC.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSGEOM.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSGSC.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSGSTR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSHOW.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSJOG.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSKOR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSMAN.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSRMSG.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSTED.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSTEDC.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSTIO.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCSVAR.CPP" />
+    <ClCompile Include="..\..\CNCSHOW\CNCTEDI.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTBGN.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTCM.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTCOM1.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTIME.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTINFM.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTIO.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTMFUN.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTMM.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTPOIN.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTRC1.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTRC2.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTRES.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTRPR.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTSM.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTSTP.CPP" />
+    <ClCompile Include="..\..\CNCTIME\CNCTSZR.CPP" />
+    <ClCompile Include="..\..\CNCTIME\MFUNK.CPP" />
+    <ClCompile Include="..\..\CNCTIME\NUMPOINT.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUANA.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUASIM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUENDS.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUFNM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUFNUM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUFOM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUFORM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUGR4.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUGRAN.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUINTF.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNP1.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNP2.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNP3.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNUL.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNUMF.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUNUMS.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUR_PR.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUSIM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUWERR.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUWKP.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUZCP.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUZERO.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\CNCUZSM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\FORM.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\FORMP.CPP" />
+    <ClCompile Include="..\..\CNCUNPAC\F_ERROR.CPP" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

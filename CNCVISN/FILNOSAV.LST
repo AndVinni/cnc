@@ -1,0 +1,9 @@
+cncvisn.exe
+*.obj
+*.swp
+*.sym
+*.bak
+*.zip
+*.td
+*.tfa
+		
