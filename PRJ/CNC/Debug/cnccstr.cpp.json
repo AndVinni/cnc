@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\repos\\cnc\\cnccamp\\cnccstr.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h",
+            "d:\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.32.31326\\include\\vcruntime.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.32.31326\\include\\sal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.32.31326\\include\\concurrencysal.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.32.31326\\include\\vadefs.h",
+            "d:\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_wstdio.h",
+            "d:\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_stdio_config.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncraz.h",
+            "d:\\projects\\repos\\cnc\\cncdrc\\cnccdef.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cnchard.h",
+            "d:\\projects\\repos\\cnc\\cncdrc\\cnccstat.h",
+            "d:\\projects\\repos\\cnc\\cncdrc\\cnccsti.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncint.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncintb.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncun1.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncvoidu.h",
+            "d:\\projects\\repos\\cnc\\cncdrc\\cncvoidt.h",
+            "d:\\projects\\repos\\cnc\\bc\\include\\_defs.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncvoidc.h",
+            "d:\\projects\\repos\\cnc\\cncshow\\cncshow.h",
+            "d:\\projects\\repos\\cnc\\cncshow\\cncsfspr.h",
+            "d:\\projects\\repos\\cnc\\cncshow\\cncscr.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

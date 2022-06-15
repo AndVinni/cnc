@@ -66,7 +66,7 @@ typedef union
 typedef union
  {
   float vreal;      /* Числовое значение  */           
-  CHAR far *vstr;   /* Строковое значение */
+  CHAR _FAR *vstr;   /* Строковое значение */
  } ALLTYPE;
 		/* Тип записи в таблице */
 
@@ -76,7 +76,7 @@ typedef struct
  ALLTYPE dv;
 } TABTYPE;
 
-typedef TABTYPE far *TABTYPEPTR;	/* Указатель на запись таблицы */
+typedef TABTYPE _FAR *TABTYPEPTR;	/* Указатель на запись таблицы */
 					/* Указатель на массив указателей */
 typedef TABTYPEPTR far (*TABTYPEARRPTR)[SZTABY][SZTABX];
 		    /* Тип - координата в таблице */
@@ -108,7 +108,7 @@ typedef struct
 
 		/* Основные переменные для работы с таблицами */
 
-extern TABARR far *Atab;     	/* Работаем с этой таблицей */
+extern TABARR _FAR *Atab;     	/* Работаем с этой таблицей */
 
 
 

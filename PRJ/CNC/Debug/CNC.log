@@ -1,1594 +1,370 @@
-﻿  CNCCAUTO.CPP
-D:\CNC\CNCCAMP\CNCCAUTO.CPP(22,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCCFRS.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCMAN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCOUTK.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCREF.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCRM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCRRDP.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCSTR.CPP
-D:\CNC\CNCDRC\cncvoidt.h(2,8): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCDRC\cncvoidt.h(2,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCDRC\cncvoidt.h(2,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCDRC\cncvoidt.h(2,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCDRC\cncvoidt.h(2): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-  CNCCTOK.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCICRS.CPP
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983,76): error C2365: y1: переопределение; предыдущим определением было "переменная данных"
-D:\CNC\CNCCOM\cncun3.h(10): message : см. объявление "y1"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCICT.CPP
-  CNCCIEQV.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCIINP.CPP
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983,76): error C2365: y1: переопределение; предыдущим определением было "переменная данных"
-D:\CNC\CNCCOM\cncun3.h(10): message : см. объявление "y1"
-D:\CNC\CNCCI\CNCCIINP.CPP(35,10): error C2065: M_PI_2: необъявленный идентификатор
-D:\CNC\CNCCI\CNCCIINP.CPP(36,8): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCCI\CNCCIINP.CPP(204,52): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCCI\CNCCIINP.CPP(211,53): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCCI\CNCCIINP.CPP(224,52): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCCI\CNCCIINP.CPP(231,53): error C2065: M_PI: необъявленный идентификатор
-  CNCCIKCN.CPP
-  CNCCIKRG.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCILL.CPP
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983,76): error C2365: y1: переопределение; предыдущим определением было "переменная данных"
-D:\CNC\CNCCOM\cncun3.h(10): message : см. объявление "y1"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCILMT.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCIMRR.CPP
-D:\CNC\CNCCOM\cncun3.h(10,11): error C2365: y1: переопределение; предыдущим определением было "функция"
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983): message : см. объявление "y1"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCIPOL.CPP
-D:\CNC\CNCCOM\cncun3.h(10,11): error C2365: y1: переопределение; предыдущим определением было "функция"
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983): message : см. объявление "y1"
-  CNCCIRDS.CPP
-  Создание кода...
-  Компиляция...
-  CNCCIRNC.CPP
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983,76): error C2365: y1: переопределение; предыдущим определением было "переменная данных"
-D:\CNC\CNCCOM\cncun3.h(10): message : см. объявление "y1"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCIRND.CPP
-D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983,76): error C2365: y1: переопределение; предыдущим определением было "переменная данных"
-D:\CNC\CNCCOM\cncun3.h(10): message : см. объявление "y1"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCISM0.CPP
-D:\CNC\CNCCI\CNCCISM0.CPP(79,8): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\CNC\CNCCI\CNCCISM0.CPP(80,8): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\CNC\CNCCI\CNCCISM0.CPP(81,16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\CNC\CNCCI\CNCCISM0.CPP(87,6): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CNCCISVL.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCCIUNA.CPP
-  CNCCSTAT.CPP
-  CNCCSTI.CPP
-  CNCED.CPP
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCCOM\CNCED.CPP(37,11): error C2440: инициализация: невозможно преобразовать "const char [81]" в "CHAR *"
-D:\CNC\CNCCOM\CNCED.CPP(37,11): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\CNCED.CPP(40,16): error C2440: инициализация: невозможно преобразовать "const char [2]" в "CHAR *"
-D:\CNC\CNCCOM\CNCED.CPP(40,12): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\CNCED.CPP(41,17): error C2440: инициализация: невозможно преобразовать "const char [2]" в "CHAR *"
-D:\CNC\CNCCOM\CNCED.CPP(41,13): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\CNCED.CPP(43,13): error C2440: инициализация: невозможно преобразовать "const char [82]" в "CHAR *"
-D:\CNC\CNCCOM\CNCED.CPP(43,13): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-  CNCHARD.CPP
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\cncscr.h(39,14): error C3646: x: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(39,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(40,21): error C3646: y: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(40,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(76,7): error C3646: VideoMode: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(76,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(77,7): error C3646: Black: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(77,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(78,7): error C3646: Blue: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(78,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(79,7): error C3646: Green: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(79,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(80,7): error C3646: Cyan: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(80,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(81,7): error C3646: Red: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(81,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(82,7): error C3646: Magenta: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(82,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(83,7): error C3646: Brown: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(83,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(84,7): error C3646: LightGray: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(84,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(85,7): error C3646: DarkGray: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(85,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(86,7): error C3646: LightBlue: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(86,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(87,7): error C3646: LightGreen: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(87,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(88,7): error C3646: LightCyan: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(88,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(89,7): error C3646: LightRed: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(89,15): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(90,7): error C3646: LightMagenta: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(90,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(91,7): error C3646: Yellow: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(91,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(92,7): error C3646: White: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(92,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(133,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncscr.h(133,28): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "str"
-D:\CNC\CNCSHOW\cncscr.h(133,28): error C3646: str: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncscr.h(133,37): error C2059: синтаксическая ошибка: )
-D:\CNC\CNCSHOW\cncscr.h(133,38): error C2059: синтаксическая ошибка: ;
-D:\CNC\CNCSHOW\cncscr.h(134,6): error C2182: "InitScr": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(134,14): error C2065: BYTE: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(134,19): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "videomode"
-D:\CNC\CNCSHOW\cncscr.h(136,6): error C2182: "Line": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(136,11): error C2065: BYTE: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(136,16): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "x"
-D:\CNC\CNCSHOW\cncscr.h(138,6): error C2182: "MainBord": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(138,15): error C2065: BYTE: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(138,20): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "videomode"
-D:\CNC\CNCSHOW\cncscr.h(140,6): error C2182: "ClrWind": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(140,14): error C2065: BYTE: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(140,19): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "x0"
-D:\CNC\CNCSHOW\cncscr.h(144,6): error C2182: "RolWind": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(144,14): error C2065: INT: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(144,18): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "lux"
-D:\CNC\CNCSHOW\cncscr.h(146,6): error C2182: "Window": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(146,13): error C2065: BYTE: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncscr.h(146,18): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "x"
-D:\CNC\CNCSHOW\cncscr.h(148,6): error C2182: "DrawWarning": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncscr.h(148,18): error C2065: STRING: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncsfspr.h(26,7): error C3646: plus: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(26,11): error C2059: синтаксическая ошибка: :
-D:\CNC\CNCSHOW\cncsfspr.h(26,11): error C2334: непредвиденные лексемы перед ":"; пропуск вероятного тела функции
-D:\CNC\CNCSHOW\cncsfspr.h(32,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(35,14): error C3646: StQuKey: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(35,21): error C2071: <unnamed-tag>::BYTE: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(35,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(36,14): error C3646: FCur: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(36,18): error C2071: <unnamed-tag>::BYTE: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(36,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(37,14): error C3646: SnCur: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(37,19): error C2143: синтаксическая ошибка: отсутствие "," перед "["
-D:\CNC\CNCSHOW\cncsfspr.h(37,20): error C2071: <unnamed-tag>::BYTE: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(37,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(38,14): error C3646: SCur: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(38,18): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
-D:\CNC\CNCSHOW\cncsfspr.h(38,18): error C2098: неожиданный токен после элемента данных "BYTE"
-D:\CNC\CNCSHOW\cncsfspr.h(38,18): error C2059: синтаксическая ошибка: )
-D:\CNC\CNCSHOW\cncsfspr.h(39,14): error C3646: NumbS: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(39,19): error C2071: <unnamed-tag>::BYTE: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(39,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(40,14): error C3646: PosSwitch: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(40,23): error C2071: <unnamed-tag>::BYTE: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(40,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(41,14): error C3646: HandMax: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(41,21): error C2143: синтаксическая ошибка: отсутствие "," перед "["
-D:\CNC\CNCSHOW\cncsfspr.h(41,22): error C2071: <unnamed-tag>::WORD: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(41,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(42,14): error C3646: ReqQuKey: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(42,22): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
-D:\CNC\CNCSHOW\cncsfspr.h(42,22): error C2098: неожиданный токен после элемента данных "QKEY"
-D:\CNC\CNCSHOW\cncsfspr.h(42,22): error C2059: синтаксическая ошибка: )
-D:\CNC\CNCSHOW\cncsfspr.h(44,13): error C3646: Fpri: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(44,17): error C2071: <unnamed-tag>::REAL: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(44,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(45,13): error C3646: S1pri: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(45,18): error C2071: <unnamed-tag>::REAL: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(45,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(46,13): error C3646: S2pri: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(46,18): error C2071: <unnamed-tag>::REAL: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(46,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(47,13): error C3646: FCurVG: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(47,19): error C2071: <unnamed-tag>::REAL: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(47,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(48,13): error C3646: StepFid: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(48,20): error C2143: синтаксическая ошибка: отсутствие "," перед "["
-D:\CNC\CNCSHOW\cncsfspr.h(48,21): error C2071: <unnamed-tag>::REAL: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(48,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(49,13): error C3646: PosSwitch: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(49,22): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
-D:\CNC\CNCSHOW\cncsfspr.h(49,22): error C2098: неожиданный токен после элемента данных "BYTE"
-D:\CNC\CNCSHOW\cncsfspr.h(49,22): error C2059: синтаксическая ошибка: )
-D:\CNC\CNCSHOW\cncsfspr.h(50,14): error C3646: DriveBlk: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(50,22): error C2071: <unnamed-tag>::AXBIT: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(50,22): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(51,13): error C3646: ConturOut: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(51,22): error C2143: синтаксическая ошибка: отсутствие "," перед "["
-D:\CNC\CNCSHOW\cncsfspr.h(51,23): error C2071: <unnamed-tag>::LONG: недопустимый класс хранения
-D:\CNC\CNCSHOW\cncsfspr.h(51,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(52,14): error C3646: AxActive: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(52,22): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
-D:\CNC\CNCSHOW\cncsfspr.h(52,22): error C2098: неожиданный токен после элемента данных "AXBIT"
-D:\CNC\CNCSHOW\cncsfspr.h(52,22): error C2059: синтаксическая ошибка: )
-D:\CNC\CNCSHOW\cncsfspr.h(55,16): error C2061: синтаксическая ошибка: идентификатор "INT"
-D:\CNC\CNCSHOW\cncsfspr.h(58,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncsfspr.h(58,25): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "FormFunk"
-D:\CNC\CNCSHOW\cncsfspr.h(58,25): error C3646: FormFunk: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(59,17): error C3646: ScaleData: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(59,12): error C2182: "WORD": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncsfspr.h(59,12): error C2086: int <unnamed-tag>::WORD: переопределение
-D:\CNC\CNCSHOW\cncsfspr.h(60,10): error C3646: ScaleMax: неизвестный спецификатор переопределения
-D:\CNC\CNCSHOW\cncsfspr.h(61,11): fatal error C1003: число ошибок превышает 100; остановка компиляции
-  CNCINT.CPP
-  CNCINTB.CPP
-  CNCINTF.CPP
-  CNCINTH.CPP
-D:\CNC\CNCCOM\CNCINTH.CPP(81,6): error C2371: sleg: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(62): message : см. объявление "sleg"
-D:\CNC\CNCCOM\CNCINTH.CPP(82,6): error C2371: move: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(63): message : см. объявление "move"
-D:\CNC\CNCCOM\CNCINTH.CPP(83,6): error C2371: ltorm: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(64): message : см. объявление "ltorm"
-D:\CNC\CNCCOM\CNCINTH.CPP(84,6): error C2371: ltorm1: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(65): message : см. объявление "ltorm1"
-D:\CNC\CNCCOM\CNCINTH.CPP(85,6): error C2371: sltorm: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(66): message : см. объявление "sltorm"
-D:\CNC\CNCCOM\CNCINTH.CPP(86,6): error C2371: xdir: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(67): message : см. объявление "xdir"
-D:\CNC\CNCCOM\CNCINTH.CPP(87,6): error C2371: ax_on: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(69): message : см. объявление "ax_on"
-D:\CNC\CNCCOM\CNCINTH.CPP(88,6): error C2371: blmove: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(70): message : см. объявление "blmove"
-D:\CNC\CNCCOM\CNCINTH.CPP(89,6): error C2371: ptask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(77): message : см. объявление "ptask"
-D:\CNC\CNCCOM\CNCINTH.CPP(90,6): error C2371: pptask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(78): message : см. объявление "pptask"
-D:\CNC\CNCCOM\CNCINTH.CPP(91,6): error C2371: ktask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(79): message : см. объявление "ktask"
-D:\CNC\CNCCOM\CNCINTH.CPP(92,6): error C2371: ktasks: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(80): message : см. объявление "ktasks"
-D:\CNC\CNCCOM\CNCINTH.CPP(93,6): error C2371: pktask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(81): message : см. объявление "pktask"
-D:\CNC\CNCCOM\CNCINTH.CPP(94,6): error C2371: stasks: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(85): message : см. объявление "stasks"
-D:\CNC\CNCCOM\CNCINTH.CPP(95,6): error C2371: blokMO: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(71): message : см. объявление "blokMO"
-D:\CNC\CNCCOM\CNCINTH.CPP(96,6): error C2371: MASKI: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(72): message : см. объявление "MASKI"
-D:\CNC\CNCCOM\CNCINTH.CPP(97,6): error C2371: MASKP: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(73): message : см. объявление "MASKP"
-D:\CNC\CNCCOM\CNCINTH.CPP(98,6): error C2371: kprkv: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(74): message : см. объявление "kprkv"
-D:\CNC\CNCCOM\CNCINTH.CPP(99,6): error C2371: rkalibr: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(75): message : см. объявление "rkalibr"
-D:\CNC\CNCCOM\CNCINTH.CPP(100,6): error C2371: xref: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(76): message : см. объявление "xref"
-D:\CNC\CNCCOM\CNCINTH.CPP(102,6): error C2371: pdrive: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(87): message : см. объявление "pdrive"
-D:\CNC\CNCCOM\CNCINTH.CPP(103,6): error C2371: zdrive: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(88): message : см. объявление "zdrive"
-D:\CNC\CNCCOM\CNCINTH.CPP(104,6): error C2371: drives: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(89): message : см. объявление "drives"
-D:\CNC\CNCCOM\CNCINTH.CPP(105,6): error C2371: qdron: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(93): message : см. объявление "qdron"
-D:\CNC\CNCCOM\CNCINTH.CPP(108,7): error C2372: win: переопределение; различные типы косвенного обращения
-D:\CNC\CNCCOM\cncint.h(97): message : см. объявление "win"
-D:\CNC\CNCCOM\CNCINTH.CPP(109,7): error C2372: wout: переопределение; различные типы косвенного обращения
-D:\CNC\CNCCOM\cncint.h(98): message : см. объявление "wout"
-D:\CNC\CNCCOM\CNCINTH.CPP(112,6): error C2371: _ptask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(90): message : см. объявление "_ptask"
-D:\CNC\CNCCOM\CNCINTH.CPP(113,6): error C2371: _stask: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(91): message : см. объявление "_stask"
-D:\CNC\CNCCOM\CNCINTH.CPP(116,6): error C2372: xbufin: переопределение; различные типы косвенного обращения
-D:\CNC\CNCCOM\cncint.h(100): message : см. объявление "xbufin"
-D:\CNC\CNCCOM\CNCINTH.CPP(120,15): error C2079: "vvod_r" использует не имеющую определения структуру union "vvod_w"
-D:\CNC\CNCCOM\CNCINTH.CPP(122,7): error C2371: xquit: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(123): message : см. объявление "xquit"
-D:\CNC\CNCCOM\CNCINTH.CPP(142,7): error C2371: PROGKV: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(127): message : см. объявление "PROGKV"
-D:\CNC\CNCCOM\CNCINTH.CPP(143,6): error C2371: xquit_z: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(92): message : см. объявление "xquit_z"
-D:\CNC\CNCCOM\CNCINTH.CPP(155,6): error C2371: okey_z: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(141): message : см. объявление "okey_z"
-D:\CNC\CNCCOM\CNCINTH.CPP(156,6): error C2371: cap0_z: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(142): message : см. объявление "cap0_z"
-D:\CNC\CNCCOM\CNCINTH.CPP(157,6): error C2371: prx_zr: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(143): message : см. объявление "prx_zr"
-D:\CNC\CNCCOM\CNCINTH.CPP(158,6): error C2371: prx_zq: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(144): message : см. объявление "prx_zq"
-D:\CNC\CNCCOM\CNCINTH.CPP(159,6): error C2371: prx_zz: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(145): message : см. объявление "prx_zz"
-D:\CNC\CNCCOM\CNCINTH.CPP(160,6): error C2371: prx_zk: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(147): message : см. объявление "prx_zk"
-D:\CNC\CNCCOM\CNCINTH.CPP(161,6): error C2371: prx_zv: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(146): message : см. объявление "prx_zv"
-D:\CNC\CNCCOM\CNCINTH.CPP(164,6): error C2371: PROGKV_z: переопределение; различные базовые типы
-D:\CNC\CNCCOM\cncint.h(150): message : см. объявление "PROGKV_z"
-  CNCIOPAR.CPP
-D:\CNC\CNCCOM\CNCIOPAR.CPP(11,1): fatal error C1083: Не удается открыть файл включение: fStream.h: No such file or directory,
-  CNCPAR.CPP
-D:\CNC\CNCCOM\CNCPAR.CPP(13,9): warning C4068: неизвестная прагма "hdrfile"
-D:\CNC\CNCCOM\CNCPAR.CPP(16,1): fatal error C1083: Не удается открыть файл включение: fStream.h: No such file or directory,
-  CNCTCOM2.CPP
-D:\CNC\CNCDRC\CNCTCOM2.CPP(2,1): fatal error C1083: Не удается открыть файл включение: bios.h: No such file or directory,
-  CNCTEND.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
+﻿  Проверка источников на наличие зависимостей модуля…
   CNCICRFN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCIEOKS.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCIRES.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  Создание кода...
-  Компиляция...
-  CNCISPOZ.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCISREF.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  AVTOYP.CPP
-D:\CNC\CNCSERR\AVTOYP.CPP(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  DIAG.CPP
-D:\CNC\CNCSERR\DIAG.CPP(4,1): fatal error C1083: Не удается открыть файл включение: alloc.h: No such file or directory,
-  GLAV.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  MISTAKE.CPP
-D:\CNC\CNCSERR\MISTAKE.CPP(3,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  OB_IN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  OB_KON.CPP
-D:\CNC\CNCSERR\OB_KON.CPP(5,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  OB_KON2.CPP
-D:\CNC\CNCSERR\OB_KON2.CPP(5,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  OB_OUT.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  ZAPIC.CPP
-D:\CNC\CNCSERR\ZAPIC.CPP(6,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSAUTO.CPP
-D:\CNC\CNCSHOW\CNCSAUTO.CPP(16,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSBEG.CPP
-D:\CNC\CNCSHOW\CNCSBEG.CPP(15,1): fatal error C1083: Не удается открыть файл включение: bios.h: No such file or directory,
-  CNCSCMPR.CPP
-D:\CNC\CNCSHOW\CNCSCMPR.CPP(14,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSCR.CPP
-D:\CNC\CNCSHOW\CNCSCR.CPP(13,1): fatal error C1083: Не удается открыть файл включение: mem.h: No such file or directory,
-  CNCSCWND.CPP
-D:\CNC\CNCSHOW\CNCSCWND.CPP(15,1): fatal error C1083: Не удается открыть файл включение: mem.h: No such file or directory,
-  CNCSDIAG.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(98,9): error C3861: textcolor: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(98,9): error C3861: textbackground: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(102,9): error C3861: textcolor: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(102,9): error C3861: textbackground: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(123,2): error C3861: gotoxy: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(124,2): error C3861: textcolor: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(124,2): error C3861: textbackground: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(140,3): error C3861: gotoxy: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(139,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\CNC\CNCSHOW\CNCSDIAG.CPP(141,3): error C4996: 'cputs': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cputs. See online help for details.
-  CNCSEDIT.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(73,32): error C2664: "void FhRoot(CHAR,STRING,STRING)": невозможно преобразовать аргумент 2 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(73,13): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(112,13): message : см. объявление "FhRoot"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(80,30): error C2664: "void FhCopFile(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(80,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(113,13): message : см. объявление "FhCopFile"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(88,30): error C2664: "void FhSwapDir(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(88,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(114,13): message : см. объявление "FhSwapDir"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(96,28): error C2664: "void FhSwIst(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(96,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(115,13): message : см. объявление "FhSwIst"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(118,32): error C2664: "void FhRoot(CHAR,STRING,STRING)": невозможно преобразовать аргумент 2 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(118,13): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(112,13): message : см. объявление "FhRoot"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(125,29): error C2664: "void FhUnlink(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(125,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(116,13): message : см. объявление "FhUnlink"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(132,32): error C2664: "void FhAllUnlink(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(132,24): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(117,13): message : см. объявление "FhAllUnlink"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(139,29): error C2664: "void FhRename(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(139,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(118,13): message : см. объявление "FhRename"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(147,30): error C2664: "void FhProtect(CHAR,WORD *,STRING)": невозможно преобразовать аргумент 3 из "const char [4]" в "STRING"
-D:\CNC\CNCSHOW\CNCSEDIT.CPP(147,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\cncsfh.h(119,13): message : см. объявление "FhProtect"
-  CNCSFH.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\cncsgstr.h(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSFSPR.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  Создание кода...
-  Компиляция...
-  CNCSFUN.CPP
-D:\CNC\CNCSHOW\CNCSFUN.CPP(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSGDC.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-  CNCSGEOM.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCSGSC.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCSGSTR.CPP
-D:\CNC\CNCSHOW\CNCSGSTR.CPP(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSHOW.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCSJOG.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\cncsgstr.h(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSKOR.CPP
-D:\CNC\CNCSHOW\CNCSKOR.CPP(14,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSMAN.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\CNCSMAN.CPP(88,9): error C3861: textcolor: идентификатор не найден
-D:\CNC\CNCSHOW\CNCSMAN.CPP(88,9): error C3861: textbackground: идентификатор не найден
-  CNCSRMSG.CPP
-D:\CNC\CNCSHOW\CNCSRMSG.CPP(14,1): fatal error C1083: Не удается открыть файл включение: alloc.h: No such file or directory,
-  CNCSTED.CPP
-D:\CNC\CNCSHOW\CNCSTED.CPP(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSTEDC.CPP
-D:\CNC\CNCSHOW\CNCSTEDC.CPP(16,1): fatal error C1083: Не удается открыть файл включение: mem.h: No such file or directory,
-  CNCSTIO.CPP
-D:\CNC\CNCSHOW\CNCSTIO.CPP(13,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCSVAR.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncscr.h(31,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
-D:\CNC\CNCSHOW\cncscr.h(31,15): error C2238: непредвиденные лексемы перед ";"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,22): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\CNCSVAR.CPP(25,33): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,22): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\CNCSVAR.CPP(26,33): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,22): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\CNCSVAR.CPP(27,32): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,22): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\CNCSVAR.CPP(28,31): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,22): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\CNCSVAR.CPP(29,32): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\CNCSVAR.CPP(57,4): error C2440: инициализация: невозможно преобразовать "const char [1]" в "STRING"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(57,4): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\CNCSVAR.CPP(59,4): error C2440: инициализация: невозможно преобразовать "const char [1]" в "STRING"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(59,4): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\CNCSVAR.CPP(63,4): error C2440: инициализация: невозможно преобразовать "const char [1]" в "STRING"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(63,4): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCSHOW\CNCSVAR.CPP(65,4): error C2440: инициализация: невозможно преобразовать "const char [1]" в "STRING"
-D:\CNC\CNCSHOW\CNCSVAR.CPP(65,4): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-  CNCTEDI.CPP
-D:\CNC\CNCSHOW\CNCTEDI.CPP(13,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCTBGN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTCM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTCOM1.CPP
-D:\CNC\CNCTIME\CNCTCOM1.CPP(9,1): fatal error C1083: Не удается открыть файл включение: bios.h: No such file or directory,
-  CNCTIME.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTINFM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  Создание кода...
-  Компиляция...
-  CNCTIO.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTMFUN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTMM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTPOIN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTRC1.CPP
-D:\CNC\CNCTIME\CNCTRC1.CPP(21,7): error C2061: синтаксическая ошибка: идентификатор "push"
-D:\CNC\CNCTIME\CNCTRC1.CPP(25,6): error C2061: синтаксическая ошибка: идентификатор "add"
-D:\CNC\CNCTIME\CNCTRC1.CPP(32,6): error C2061: синтаксическая ошибка: идентификатор "jmp"
-D:\CNC\CNCTIME\CNCTRC1.CPP(34,6): error C2061: синтаксическая ошибка: идентификатор "jmp"
-D:\CNC\CNCTIME\CNCTRC1.CPP(37,13): error C2061: синтаксическая ошибка: идентификатор "pop"
-  CNCTRC2.CPP
-D:\CNC\CNCTIME\CNCTRC2.CPP(20,7): error C2061: синтаксическая ошибка: идентификатор "push"
-D:\CNC\CNCTIME\CNCTRC2.CPP(24,6): error C2061: синтаксическая ошибка: идентификатор "add"
-D:\CNC\CNCTIME\CNCTRC2.CPP(31,6): error C2061: синтаксическая ошибка: идентификатор "jmp"
-D:\CNC\CNCTIME\CNCTRC2.CPP(33,6): error C2061: синтаксическая ошибка: идентификатор "jmp"
-D:\CNC\CNCTIME\CNCTRC2.CPP(35,13): error C2061: синтаксическая ошибка: идентификатор "pop"
-  CNCTRES.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTRPR.CPP
-D:\CNC\CNCTIME\CNCTRPR.CPP(26,6): error C2061: синтаксическая ошибка: идентификатор "push"
-D:\CNC\CNCTIME\CNCTRPR.CPP(40,2): error C2065: _AL: необъявленный идентификатор
-D:\CNC\CNCTIME\CNCTRPR.CPP(40,16): error C2065: _CX: необъявленный идентификатор
-D:\CNC\CNCTIME\CNCTRPR.CPP(41,6): error C2061: синтаксическая ошибка: идентификатор "out"
-D:\CNC\CNCTIME\CNCTRPR.CPP(44,6): error C2061: синтаксическая ошибка: идентификатор "mov"
-  CNCTSM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTSTP.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCTSZR.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  MFUNK.CPP
-D:\CNC\CNCTIME\MFUNK.CPP(2,1): fatal error C1083: Не удается открыть файл включение: epack.h: No such file or directory,
-  NUMPOINT.CPP
-D:\CNC\CNCTIME\NUMPOINT.CPP(2,1): fatal error C1083: Не удается открыть файл включение: epack.h: No such file or directory,
-  CNCUANA.CPP
-D:\CNC\CNCUNPAC\CNCUANA.CPP(64,18): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCUNPAC\CNCUANA.CPP(97,21): error C2065: M_PI: необъявленный идентификатор
-D:\CNC\CNCUNPAC\CNCUANA.CPP(110,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(110,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(111,50): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(111,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(112,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [8]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(112,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(113,38): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(113,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(119,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(119,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(120,50): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(120,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(121,42): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [8]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(121,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(122,38): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(122,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(136,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(136,22): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(137,50): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(137,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(138,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(138,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(139,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(139,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(168,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(168,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(169,50): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(169,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(170,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [8]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(170,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(171,38): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(171,18): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(185,38): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(185,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(186,52): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(186,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(187,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(187,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(188,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(188,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUANA.CPP(213,19): warning C4244: аргумент: преобразование "REAL" в "long", возможна потеря данных
-D:\CNC\CNCUNPAC\CNCUANA.CPP(214,19): warning C4244: аргумент: преобразование "REAL" в "INT", возможна потеря данных
-D:\CNC\CNCUNPAC\CNCUANA.CPP(218,30): warning C4476: "fscanf": неизвестный символ поля типа "." в описателе формата
-D:\CNC\CNCUNPAC\CNCUANA.CPP(218,40): warning C4474: "fscanf" : для строки формата передано слишком много аргументов
-D:\CNC\CNCUNPAC\CNCUANA.CPP(218,40): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-D:\CNC\CNCUNPAC\CNCUANA.CPP(221,14): warning C4244: аргумент: преобразование "REAL" в "INT", возможна потеря данных
-D:\CNC\CNCUNPAC\CNCUANA.CPP(218,20): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CNCUASIM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUENDS.CPP
-D:\CNC\CNCUNPAC\CNCUENDS.CPP(13,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCUFNM.CPP
-  CNCUFNUM.CPP
-  CNCUFOM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUFORM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  Создание кода...
-  Компиляция...
-  CNCUGR4.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUGRAN.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUINTF.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUNP1.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUNP2.CPP
-D:\CNC\CNCUNPAC\CNCUNP2.CPP(15,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCUNP3.CPP
-D:\CNC\CNCUNPAC\CNCUNP3.CPP(20,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCUNUL.CPP
-  CNCUNUMF.CPP
-D:\CNC\CNCUNPAC\CNCUNUMF.CPP(14,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCUNUMS.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUR_PR.CPP
-D:\CNC\CNCUNPAC\CNCUR_PR.CPP(12,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  CNCUSIM.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-  CNCUWERR.CPP
-D:\CNC\CNCSHOW\cncshow.h(37,20): error C2008: ': не требуется в макроопределении
-D:\CNC\CNCSHOW\cncshow.h(148,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(148,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(148,30): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(148,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Getscancod"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(149,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(149,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(149,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(149,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "NullFun"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(150,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(150,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(150,16): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(150,20): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "IbmError"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(182,6): error C2086: int interrupt: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "interrupt"
-D:\CNC\CNCSHOW\cncshow.h(182,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "taim"
-D:\CNC\CNCSHOW\cncshow.h(182,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(194,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(194,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(194,29): error C2065: PtrNewVect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(194,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(195,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(195,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(195,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(195,29): error C2065: Ptroldvect: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(195,40): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(196,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(196,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(196,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(196,29): error C2065: PtrIbmErr: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(196,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(197,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(197,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(197,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(197,29): error C2065: PtrTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(197,38): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCSHOW\cncshow.h(198,13): error C2182: "interrupt": недопустимое использование "void"
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "far"
-D:\CNC\CNCSHOW\cncshow.h(198,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\CNC\CNCSHOW\cncshow.h(198,23): error C2086: int far: переопределение
-D:\CNC\CNCSHOW\cncshow.h(148): message : см. объявление "far"
-D:\CNC\CNCSHOW\cncshow.h(198,29): error C2065: PtrNTimer: необъявленный идентификатор
-D:\CNC\CNCSHOW\cncshow.h(198,39): error C2059: синтаксическая ошибка: (
-D:\CNC\CNCUNPAC\CNCUWERR.CPP(22,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CNCUWKP.CPP
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(29,39): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(29,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(30,48): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [9]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(30,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(33,39): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(33,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(36,46): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [9]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(36,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(38,39): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(38,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(39,48): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [9]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(39,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(41,15): warning C4129: p: неизвестная escape-последовательность
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(49,39): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(49,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(50,53): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(50,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(51,43): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [8]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(51,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(52,37): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(52,21): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(85,38): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(85,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(86,52): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(86,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(87,40): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [8]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(87,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(88,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(88,20): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(141,39): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(141,17): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(150,36): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [5]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(150,17): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(151,37): error C2664: "void cncufpnn(INT,INT,STRING,REAL,INT,STRING,REAL,INT)": невозможно преобразовать аргумент 3 из "const char [6]" в "STRING"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(151,17): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
-D:\CNC\CNCCOM\cncvoidu.h(13,9): message : см. объявление "cncufpnn"
-D:\CNC\CNCUNPAC\CNCUWKP.CPP(116,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  CNCUZCP.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUZERO.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  CNCUZSM.CPP
-D:\CNC\CNCCOM\cncPard.h(14,1): fatal error C1083: Не удается открыть файл включение: Object.h: No such file or directory,
-  FORM.CPP
-D:\CNC\CNCUNPAC\FORM.CPP(9,4): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-D:\CNC\CNCUNPAC\FORM.CPP(143,17): warning C4129: c: неизвестная escape-последовательность
-D:\CNC\CNCUNPAC\FORM.CPP(143,17): warning C4129: m: неизвестная escape-последовательность
-D:\CNC\CNCUNPAC\FORM.CPP(145,17): warning C4129: c: неизвестная escape-последовательность
-D:\CNC\CNCUNPAC\FORM.CPP(145,17): warning C4129: g: неизвестная escape-последовательность
-D:\CNC\CNCUNPAC\FORM.CPP(143,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\CNC\CNCUNPAC\FORM.CPP(145,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  FORMP.CPP
-D:\CNC\CNCUNPAC\FORMP.CPP(7,1): fatal error C1083: Не удается открыть файл включение: dir.h: No such file or directory,
-  F_ERROR.CPP
-D:\CNC\CNCUNPAC\F_ERROR.CPP(20,9): error C2182: "f_error": недопустимое использование "void"
-D:\CNC\CNCUNPAC\F_ERROR.CPP(20,9): error C2365: f_error: переопределение; предыдущим определением было "функция"
-D:\CNC\CNCCOM\cncvoidu.h(43): message : см. объявление "f_error"
-D:\CNC\CNCUNPAC\F_ERROR.CPP(20,17): error C2065: k_er: необъявленный идентификатор
-D:\CNC\CNCUNPAC\F_ERROR.CPP(21,6): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "INT"
-D:\CNC\CNCUNPAC\F_ERROR.CPP(23,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
-  Создание кода...
+  CNCCICRS.CPP
+D:\Projects\Repos\CNC\CNCDRV\CNCICRFN.CPP(20): fatal error C1083: ═х єфрхЄё  юЄъЁ√Є№ Їрщы тъы■ўхэшх: cmath.h: No such file or directory,
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(452,5): warning MSB8074: не удается прочитать файл зависимостей модуля Debug\CNCICRFN.CPP.module.json: Ожидается элемент "root" из пространства имен "".. Обнаружен "None" с именем "", пространство имен "". . Порядок сборки может быть неверным.
+  Компиляция…
+  CNCCREF.CPP
+  CNCCICRS.CPP
+  CNCCAUTO.CPP
+  CNCCMAN.CPP
+  CNCCOUTK.CPP
+  CNCCIINP.CPP
+  CNCCTOK.CPP
+  CNCCIEQV.CPP
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): message : см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): message : см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): message : см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): message : см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\CNCCAMP\CNCCOUTK.CPP(33,11): warning C5033: "register" больше не является поддерживаемым классом хранения.
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(50,13): warning C5033: "register" больше не является поддерживаемым классом хранения.
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(99,33): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(101,35): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(266,27): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(270,23): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(396,17): warning C5033: "register" больше не является поддерживаемым классом хранения.
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(413,36): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\CNCCAMP\CNCCMAN.CPP(415,36): warning C4244: =: преобразование "double" в "LONG", возможна потеря данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\CNCCAMP\CNCCAUTO.CPP(207,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Repos\CNC\CNCCAMP\CNCCAUTO.CPP(259,16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Repos\CNC\CNCCAMP\CNCCAUTO.CPP(262,17): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Repos\CNC\CNCCAMP\CNCCAUTO.CPP(271,12): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\CNCCAMP\CNCCTOK.CPP(35,14): warning C5033: "register" больше не является поддерживаемым классом хранения.
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\CNCCOM\cncun3.h(10,11): error C2365: y1: переопределение; предыдущим определением было "функция"
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983): note:  см. объявление "y1"
+D:\Projects\Repos\CNC\CNCCOM\cncun3.h(10,11): error C2365: y1: переопределение; предыдущим определением было "функция"
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983): note:  см. объявление "y1"
+D:\Projects\Repos\CNC\CNCCOM\cncun3.h(10,11): error C2365: y1: переопределение; предыдущим определением было "функция"
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h(983): note:  см. объявление "y1"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(21,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsTypes.h(102,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(17,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\ClsDefs.h(27,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(39,29): warning C4273: memccpy: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(83,28): note: см. предыдущее определение "memccpy"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,78): error C2556: void *memchr(const void *,int,size_t): перегруженная функция отличается от "const void *memchr(const void *,int,size_t)" только возвращаемым типом
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(41,29): error C2373: memchr: переопределение; различные модификаторы типа
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\vcruntime_string.h(22): note:  см. объявление "memchr"
+D:\Projects\Repos\CNC\BC\INCLUDE\mem.h(46,29): warning C4273: memicmp: несовместимое связывание dll
+  D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h(91,26): note: см. предыдущее определение "memicmp"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(33,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(107,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(108,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(181,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(198,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(228,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(229,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(231,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(303,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(381,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(382,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(386,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(388,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(390,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(455,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(528,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(529,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(531,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(532,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(585,20): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(643,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(644,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(647,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(654,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(656,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(669,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(671,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(684,16): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(686,17): warning C4166: недопустимое соглашение о вызове для конструктора или деструктора
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(699,37): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(700,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(701,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(702,38): warning C4229: устаревший элемент: пропуск модификаторов для данных
+D:\Projects\Repos\CNC\BC\INCLUDE\iostream.h(720,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(29,9): warning C4068: неизвестная прагма "option"
+D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE\Object.h(163,9): warning C4068: неизвестная прагма "option"

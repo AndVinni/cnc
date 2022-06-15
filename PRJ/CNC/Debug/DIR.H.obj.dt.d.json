@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\repos\\cnc\\bc\\include\\dir.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\projects\\repos\\cnc\\bc\\include\\_defs.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

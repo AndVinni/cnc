@@ -71,28 +71,32 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\CNC\CNCSHOW;D:\CNC\CNCUNPAC;D:\CNC\CNCTIME;D:\CNC\CNCSTREA;D:\CNC\CNCSERR;D:\CNC\CNCRSC;D:\CNC\CNCDRV;D:\CNC\CNCDOC;D:\CNC\CNCCOM;D:\CNC\CNCCI;D:\CNC\CNCCAMP;D:\CNC\CNCDRC</IncludePath>
-    <SourcePath>$(VC_SourcePath);</SourcePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Projects\Repos\CNC\CNCSHOW;D:\Projects\Repos\CNC\CNCUNPAC;D:\Projects\Repos\CNC\CNCTIME;D:\Projects\Repos\CNC\CNCSTREA;D:\Projects\Repos\CNC\CNCSERR;D:\Projects\Repos\CNC\CNCRSC;D:\Projects\Repos\CNC\CNCDRV;D:\Projects\Repos\CNC\CNCDOC;D:\Projects\Repos\CNC\CNCCOM;D:\Projects\Repos\CNC\CNCCI;D:\Projects\Repos\CNC\CNCCAMP;D:\Projects\Repos\CNC\CNCDRC</IncludePath>
+    <SourcePath>$(VC_SourcePath)</SourcePath>
     <ReferencePath>$(VC_ReferencesPath_x86)</ReferencePath>
-    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Projects\Repos\CNC\BC\INCLUDE;D:\Projects\Repos\CNC\BC\CLASSLIB\INCLUDE</ExternalIncludePath>
     <LibraryWPath>$(WindowsSDK_MetadataPath);</LibraryWPath>
     <PublicModuleDirectories>
     </PublicModuleDirectories>
     <PublicIncludeDirectories>
     </PublicIncludeDirectories>
+    <AllProjectIncludesArePublic>false</AllProjectIncludesArePublic>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard_C>stdc11</LanguageStandard_C>
-      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>
       </AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>
       </AdditionalUsingDirectories>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <UseFullPaths>false</UseFullPaths>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CNC.APS" />
+    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\CNCCAMP\CNCCAUTO.CPP" />
@@ -194,7 +199,6 @@
     <ClCompile Include="..\..\CNCDRV\CNCISREF.CPP" />
     <ClCompile Include="..\..\CNCSERR\AVTOYP.CPP" />
     <ClCompile Include="..\..\CNCSERR\DIAG.CPP" />
-    <ClCompile Include="..\..\CNCSERR\GLAV.CPP" />
     <ClCompile Include="..\..\CNCSERR\MISTAKE.CPP" />
     <ClCompile Include="..\..\CNCSERR\OB_IN.CPP" />
     <ClCompile Include="..\..\CNCSERR\OB_KON.CPP" />
@@ -241,8 +245,6 @@
     <ClCompile Include="..\..\CNCTIME\CNCTSM.CPP" />
     <ClCompile Include="..\..\CNCTIME\CNCTSTP.CPP" />
     <ClCompile Include="..\..\CNCTIME\CNCTSZR.CPP" />
-    <ClCompile Include="..\..\CNCTIME\MFUNK.CPP" />
-    <ClCompile Include="..\..\CNCTIME\NUMPOINT.CPP" />
     <ClCompile Include="..\..\CNCUNPAC\CNCUANA.CPP" />
     <ClCompile Include="..\..\CNCUNPAC\CNCUASIM.CPP" />
     <ClCompile Include="..\..\CNCUNPAC\CNCUENDS.CPP" />
@@ -268,7 +270,6 @@
     <ClCompile Include="..\..\CNCUNPAC\CNCUZSM.CPP" />
     <ClCompile Include="..\..\CNCUNPAC\FORM.CPP" />
     <ClCompile Include="..\..\CNCUNPAC\FORMP.CPP" />
-    <ClCompile Include="..\..\CNCUNPAC\F_ERROR.CPP" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

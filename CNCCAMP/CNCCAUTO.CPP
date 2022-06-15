@@ -1,18 +1,12 @@
 /*
 
-		   Программа обработки задания
-		 в автоматическом режиме .
-		 ( головная программа - CNCCAMP )
+		   ╧ЁюуЁрььр юсЁрсюЄъш чрфрэш 
+		 т ртЄюьрЄшўхёъюь Ёхцшьх .
+		 ( уюыютэр  яЁюуЁрььр - CNCCAMP )
+
 
 */
-#define TRU_STR(s) ((s=='\057')||(s=='\n')||(s=='\r')||(s==' ')||(s=='\0')||(i_dop>=K_SIMV))
-#define F_STR(s) while ((s==' ') && (i_dop<K_SIMV)) i_dop++;
-#define SSTC sstaim Clr (BEGIN_O | ZAP_PRK | ZAP_PR);
-#define STP !(sstaim Ifset OST_O)&&!(wwtaim Ifset STOP_TT)&&!(wwtaim Ifset STOP_PR)	      	     
-#define NAM_PP 1
-#define NUM_KP 2
-#define NAMB_K 3
-#define ERR_P  4
+
 
 #include <ctype.h>
 #include <string.h>
@@ -37,6 +31,14 @@
 #include "cncvoidu.h"
 #include "cncvoidt.h"
 
+#define TRU_STR(s) ((s=='\057')||(s=='\n')||(s=='\r')||(s==' ')||(s=='\0')||(i_dop>=K_SIMV))
+#define F_STR(s) while ((s==' ') && (i_dop<K_SIMV)) i_dop++;
+#define SSTC sstaim Clr (BEGIN_O | ZAP_PRK | ZAP_PR);
+#define STP !(sstaim Ifset OST_O)&&!(wwtaim Ifset STOP_TT)&&!(wwtaim Ifset STOP_PR)	      	     
+#define NAM_PP 1
+#define NUM_KP 2
+#define NAMB_K 3
+#define ERR_P  4
 
 #define RAS_R .ypp		/* расширение имени расп. прог-мы */
 #define FUL_OX 377		/* задание на все оси */

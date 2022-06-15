@@ -33,7 +33,7 @@
  
 	   /* Новая функция обработки прерывания от клавиатуры */
 
-void interrupt far Getscancod(...)
+void interrupt _FAR Getscancod(...)
 {
  register signed char s;       /* Скэн-код */
 

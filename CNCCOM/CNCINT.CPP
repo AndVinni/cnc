@@ -7,147 +7,147 @@
 #include "cncint.h"
 
 
-                      /*ДАННЫЕ CNCDR*/
+/*─└══█┼ CNCDR*/
 LONG  xkasan[NUM];       /*koordinata kasanija*/
 
-		   /*рабочие переменные*/
+           /*Ёрсюўшх яхЁхьхээ√х*/
 WORD  xk1,
-      xk2,
-      xk3,
-      xk4,
-      xk5; 
-INT   f_ind;		/* контурная подача */
+xk2,
+xk3,
+xk4,
+xk5;
+INT   f_ind;		/* ъюэЄєЁэр  яюфрўр */
 REAL  fi;
-REAL  vkadr[NUM];               /*заданная скорость*/
-LONG  xtask[NUM],               /*текущая рассчетная координата*/
-     xkadr[NUM],               /*заданная координата*/
-     xtest[NUM],
-     _xzad[NUM],              /*копия задания для асинхронных осей*/
-     dxpoz[NUM],               /*координата пройденной позиции*/
-     dxmod[NUM],               /*пройденное расстояние по модулю*/
-     dluft[NUM],               /*приращение люфта*/
-     fost[NUM],                /*остатки пути*/
-     slowtorm,
-     storm0,
-     slowost;
-REAL ftakt,                    /*скорость интерполяции в такте*/
-     ftask,                    /*заданная контурная скорость*/
-     fek,                      /*скорость конца кадра*/
-     maxsost,                  /*максимальный остаток пути*/
-     storm,                    /*путь торможения*/
-     vtakt[NUM],               /*tekuschay raschetnay skorost v takte*/
-     vtask[NUM];               /*okonchat.skorost*/
-INT  xtakt[NUM],               /*тактовая выдача*/
-     endin,                    /*конец ввода*/
-     slovo,                    /*рабочая ячейка*/
-     feks,		       /*скорость конца кадра по C */	
-     fslow,
-     refst[NUM],               /*состояние выезда в ноль*/
-     refsts[NUMS],
-     ik,                       /*индекс буфера кадра*/
-     xtimein,                  /*контроль времени ввода*/
-     xcntq,                    /*счетчмк быстрых стопов*/
-     xcntin,                   /*счетчик введенных байт*/
-     xnin,                     /*кол-во вводимых байт*/
-     xnout,
-     xsumin,                   /*контр сумма ввода*/
-     xendin,                   /*признак конца цикла ввода*/
-     nax[NUM],                 /*номера осей интерполяции*/
-     naxp[NUM],
-     nf,                       /*количество осей интерполяции*/
-     nfp,
-     ns[NUMS],                 /*ступень шпинделя*/
-     dxnum[NUM],               /*номер позиции дискретной оси*/
-    msdrive[NUM*(NAVX+NINFX)], /*аварии и сообщения по приводам*/
-    msnax[NUM*(NAVX+NINFX)],   /*номер оси с ошибкой*/
-    mshard[NAVDRC+NAVMS],      /*аварии CNCAX и DRC*/
-    idr,inax,ird;              /*индексы пред.массивов*/
+REAL  vkadr[NUM];               /*чрфрээр  ёъюЁюёЄ№*/
+LONG  xtask[NUM],               /*Єхъє∙р  ЁрёёўхЄэр  ъююЁфшэрЄр*/
+xkadr[NUM],               /*чрфрээр  ъююЁфшэрЄр*/
+xtest[NUM],
+_xzad[NUM],              /*ъюяш  чрфрэш  фы  рёшэїЁюээ√ї юёхщ*/
+dxpoz[NUM],               /*ъююЁфшэрЄр яЁющфхээющ яючшЎшш*/
+dxmod[NUM],               /*яЁющфхээюх ЁрёёЄю эшх яю ьюфєы■*/
+dluft[NUM],               /*яЁшЁр∙хэшх ы■ЇЄр*/
+fost[NUM],                /*юёЄрЄъш яєЄш*/
+slowtorm,
+storm0,
+slowost;
+REAL ftakt,                    /*ёъюЁюёЄ№ шэЄхЁяюы Ўшш т ЄръЄх*/
+ftask,                    /*чрфрээр  ъюэЄєЁэр  ёъюЁюёЄ№*/
+fek,                      /*ёъюЁюёЄ№ ъюэЎр ърфЁр*/
+maxsost,                  /*ьръёшьры№э√щ юёЄрЄюъ яєЄш*/
+storm,                    /*яєЄ№ ЄюЁьюцхэш */
+vtakt[NUM],               /*tekuschay raschetnay skorost v takte*/
+vtask[NUM];               /*okonchat.skorost*/
+INT  xtakt[NUM],               /*ЄръЄютр  т√фрўр*/
+endin,                    /*ъюэхЎ ттюфр*/
+slovo,                    /*Ёрсюўр   ўхщър*/
+feks,		       /*ёъюЁюёЄ№ ъюэЎр ърфЁр яю C */
+fslow,
+refst[NUM],               /*ёюёЄю эшх т√хчфр т эюы№*/
+refsts[NUMS],
+ik,                       /*шэфхъё сєЇхЁр ърфЁр*/
+xtimein,                  /*ъюэЄЁюы№ тЁхьхэш ттюфр*/
+xcntq,                    /*ёўхЄўьъ с√ёЄЁ√ї ёЄюяют*/
+xcntin,                   /*ёўхЄўшъ ттхфхээ√ї срщЄ*/
+xnin,                     /*ъюы-тю ттюфшь√ї срщЄ*/
+xnout,
+xsumin,                   /*ъюэЄЁ ёєььр ттюфр*/
+xendin,                   /*яЁшчэръ ъюэЎр Ўшъыр ттюфр*/
+nax[NUM],                 /*эюьхЁр юёхщ шэЄхЁяюы Ўшш*/
+naxp[NUM],
+nf,                       /*ъюышўхёЄтю юёхщ шэЄхЁяюы Ўшш*/
+nfp,
+ns[NUMS],                 /*ёЄєяхэ№ °яшэфхы */
+dxnum[NUM],               /*эюьхЁ яючшЎшш фшёъЁхЄэющ юёш*/
+msdrive[NUM * (NAVX + NINFX)], /*ртрЁшш ш ёююс∙хэш  яю яЁштюфрь*/
+msnax[NUM * (NAVX + NINFX)],   /*эюьхЁ юёш ё ю°шсъющ*/
+mshard[NAVDRC + NAVMS],      /*ртрЁшш CNCAX ш DRC*/
+idr, inax, ird;              /*шэфхъё√ яЁхф.ьрёёштют*/
 
-                    /*характеристики приводов*/
+                /*їрЁръЄхЁшёЄшъш яЁштюфют*/
 AXBIT sleg,     /*regim slegenia*/
-     move,     /*regim dvigenia*/
-     ltorm,    /*poslednee tormogenie*/
-     ltorm1,
-     sltorm,
-     xdir,     /*направление*/
-     xdirs,
-     ax_on,    /*привод взят на слежение*/
-     blmove,   /*блокировка движения*/
-     ptask,               /*пер фр задания*/
-     pptask,
-     ktask, 	       /*копия задания*/
-     ktasks,
-     pktask,
-     z_ktask=0,
-     z_ktasks=0,
-     z_ptask=0,
-     stasks,
-     staskp=0,
-     blokMO,
-     MASKI,
-     MASKP,
-     kprkv,
-     rkalibr,
-     xref,
-     MQUIT,
-     pdrive,                /*пер фр включения приводов*/
-     zdrive,                /*задн фронт вкл приводов*/
-     drives,                /*предыд сост приводов*/
-     _ptask,		      /* копия задания текущего кадра */	
-     _stask,		      /* копия задания S текущего кадра */	
-     xquit_z,
-     qdron;                 /*взятие привода на слежение*/
-REAL sfi[NUMS];             /*фаза качания*/
-BYTE                           /*запрос информации*/
-     *(*win),                /*рабочая копия буфера ввода*/
-     *(*wout),              /*буфер вывода*/
-     k_sum='\125',	     /* контрольная сумма wout */	
-     *xbufin,             /*буфер ввода*/
-     *(*pout);
+move,     /*regim dvigenia*/
+ltorm,    /*poslednee tormogenie*/
+ltorm1,
+sltorm,
+xdir,     /*эряЁртыхэшх*/
+xdirs,
+ax_on,    /*яЁштюф тч Є эр ёыхцхэшх*/
+blmove,   /*сыюъшЁютър фтшцхэш */
+ptask,               /*яхЁ ЇЁ чрфрэш */
+pptask,
+ktask, 	       /*ъюяш  чрфрэш */
+ktasks,
+pktask,
+z_ktask = 0,
+z_ktasks = 0,
+z_ptask = 0,
+stasks,
+staskp = 0,
+blokMO,
+MASKI,
+MASKP,
+kprkv,
+rkalibr,
+xref,
+MQUIT,
+pdrive,                /*яхЁ ЇЁ тъы■ўхэш  яЁштюфют*/
+zdrive,                /*чрфэ ЇЁюэЄ тъы яЁштюфют*/
+drives,                /*яЁхф√ф ёюёЄ яЁштюфют*/
+_ptask,		      /* ъюяш  чрфрэш  Єхъє∙хую ърфЁр */
+_stask,		      /* ъюяш  чрфрэш  S Єхъє∙хую ърфЁр */
+xquit_z,
+qdron;                 /*тч Єшх яЁштюфр эр ёыхцхэшх*/
+REAL sfi[NUMS];             /*Їрчр ърўрэш */
+BYTE                           /*чряЁюё шэЇюЁьрЎшш*/
+* (*win),                /*Ёрсюўр  ъюяш  сєЇхЁр ттюфр*/
+* (*wout),              /*сєЇхЁ т√тюфр*/
+k_sum = '\125',	     /* ъюэЄЁюы№эр  ёєььр wout */
+* xbufin,             /*сєЇхЁ ттюфр*/
+* (*pout);
 
 
-		    /*DRC-->CNCDR*/
+/*DRC-->CNCDR*/
 
-BYTE *Spr,
-     *Spr1,
-     qstop;           /*быстрый стоп*/
-LONG *rass,           /*рассогласование*/
-     *rassd;
-INT  *nstr,           /*количество плохих страниц*/
-     *fstr;           /*адреса плохих страниц*/
-LONG *xabs,           /*абсолютная координата*/
-     *xabsd;
-                    /*CNCDR-->DRC*/
-AXBIT *okey,         /*зона океу*/
-      *xquit,          /*квитирующие сигналы*/
-     *cap0,          /*ноль на ЦАП*/
-     *prxr,            /*признаки осей*/
-     *prxq,
-     *prxz,
-     *prxk,
-     *prxv;
-BYTE *stup;       /*ступень шпинделя*/
-INT *xcap;     /*тактовая выдача*/
-INT *PROGKV;     /*программир.KV*/
-AXBIT xavar_z[NUM];         /*авария приводов*/
+BYTE* Spr,
+* Spr1,
+qstop;           /*с√ёЄЁ√щ ёЄюя*/
+LONG* rass,           /*Ёрёёюуырёютрэшх*/
+* rassd;
+INT* nstr,           /*ъюышўхёЄтю яыюїшї ёЄЁрэшЎ*/
+* fstr;           /*рфЁхёр яыюїшї ёЄЁрэшЎ*/
+LONG* xabs,           /*рсёюы■Єэр  ъююЁфшэрЄр*/
+* xabsd;
+/*CNCDR-->DRC*/
+AXBIT* okey,         /*чюэр юъхє*/
+* xquit,          /*ътшЄшЁє■∙шх ёшуэры√*/
+* cap0,          /*эюы№ эр ╓└╧*/
+* prxr,            /*яЁшчэръш юёхщ*/
+* prxq,
+* prxz,
+* prxk,
+* prxv;
+BYTE* stup;       /*ёЄєяхэ№ °яшэфхы */
+INT* xcap;     /*ЄръЄютр  т√фрўр*/
+INT* PROGKV;     /*яЁюуЁрььшЁ.KV*/
+AXBIT xavar_z[NUM];         /*ртрЁш  яЁштюфют*/
 BYTE Spr_z[NUM],
-     Spr1_z[NUM];
-WORD stdrc_z,          /*слово статуса DRC*/
-     stdrcz;
-LONG  rass_z[NUM],           /*рассогласование*/
-     rass_zd[NUM];
-INT  nstr_z,           /*количество плохих страниц*/
-     fstr_z;           /*адреса плохих страниц*/
-LONG xabs_z[NUM],           /*абсолютная координата*/
-     xabs_zd[NUM];
-		    /*CNCDR-->DRC*/
-AXBIT okey_z,         /*зона океу*/
-     cap0_z,          /*ноль на ЦАП*/
-     prx_zr,            /*признаки осей*/
-     prx_zq,
-     prx_zz,
-     prx_zk,
-     prx_zv;
-BYTE stup_z;       /*ступень шпинделя*/
-INT  xcap_z[NUM];     /*тактовая выдача*/
-INT PROGKV_z[NUM];     /*программир.KV*/
+Spr1_z[NUM];
+WORD stdrc_z,          /*ёыютю ёЄрЄєёр DRC*/
+stdrcz;
+LONG  rass_z[NUM],           /*Ёрёёюуырёютрэшх*/
+rass_zd[NUM];
+INT  nstr_z,           /*ъюышўхёЄтю яыюїшї ёЄЁрэшЎ*/
+fstr_z;           /*рфЁхёр яыюїшї ёЄЁрэшЎ*/
+LONG xabs_z[NUM],           /*рсёюы■Єэр  ъююЁфшэрЄр*/
+xabs_zd[NUM];
+/*CNCDR-->DRC*/
+AXBIT okey_z,         /*чюэр юъхє*/
+cap0_z,          /*эюы№ эр ╓└╧*/
+prx_zr,            /*яЁшчэръш юёхщ*/
+prx_zq,
+prx_zz,
+prx_zk,
+prx_zv;
+BYTE stup_z;       /*ёЄєяхэ№ °яшэфхы */
+INT  xcap_z[NUM];     /*ЄръЄютр  т√фрўр*/
+INT PROGKV_z[NUM];     /*яЁюуЁрььшЁ.KV*/

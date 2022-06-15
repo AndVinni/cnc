@@ -26,7 +26,7 @@
 static QParameter* Qpar;		/* Временный массив параметров */
 
 static BOOL SaveQparam(QParameter* qparam);
-ALLTYPE far* FindNextData(void);
+ALLTYPE _FAR* FindNextData(void);
 void CompilError(INT errnum, ...);
 BOOL FindParam(INT numpar);
 
@@ -95,7 +95,7 @@ static BOOL SaveQparam(QParameter* qparam)
 }
 /* Поиск ячеки с данными по таблице */
 
-ALLTYPE far* FindNextData(void)
+ALLTYPE _FAR* FindNextData(void)
 {
 	register sz, i, j, d, r;
 	TABTYPEPTR ptr;
@@ -158,7 +158,7 @@ BOOL FindParam(INT numpar)
 static BOOL CompQ100(void)
 {
 	/* register i;
-	 ALLTYPE far * data[3];
+	 ALLTYPE _FAR * data[3];
 	 CHAR	 idata[3];
 	 BYTE	 QuAx;
 

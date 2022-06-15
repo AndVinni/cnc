@@ -16,8 +16,8 @@
 
 
 
- const ParAxisClass    	= __firstUserClass;
- const QParameterClass 	= ParAxisClass + 1;
+ const int ParAxisClass    	= __firstUserClass;
+ const int QParameterClass 	= ParAxisClass + 1;
 
 
 #endif

@@ -27,7 +27,7 @@
 #include "cncsgstr.h"
 #include "cncstio.h"
 
-TABARR far *Atab;	  	/* Активная таблица */
+TABARR _FAR *Atab;	  	/* Активная таблица */
 				/* Переменные для всех таблиц */
 TABARR NulTabl= { FTABNUL, LoadTabNull, CompTabNull },
        KorTabl= { FTABKOR, LoadTabKorr, CompTabKorr },
@@ -52,9 +52,9 @@ BOOL Ted(TEDMODE mod,DWORD data,CHAR key)
   {
   case EDIT: TedChange((TEDCHANGEMODE)data,key);
    break;
-  case INIT: TedInit((TABARR*)(void far *)data);
+  case INIT: TedInit((TABARR*)(void _FAR *)data);
    break;
-  case LOAD: TedLoad((STRING)(void far *)data);
+  case LOAD: TedLoad((STRING)(void _FAR *)data);
    break;
   case SAVE: TedSave();
    break;

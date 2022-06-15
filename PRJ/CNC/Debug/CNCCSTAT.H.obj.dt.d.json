@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\repos\\cnc\\cncdrc\\cnccstat.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\projects\\repos\\cnc\\cnccom\\cnchard.h",
+            "d:\\projects\\repos\\cnc\\cnccom\\cncraz.h",
+            "d:\\projects\\repos\\cnc\\cncdrc\\cnccdef.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
