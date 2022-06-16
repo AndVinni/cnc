@@ -18,9 +18,9 @@
 #include "cncpar.h"
 #include "cncsfun.h"
 
-STRING* CompilMesage;   /* Ошибки компиляторов */
+STRING* CompilMesage;   /* ЋиЁЎЄЁ Є®¬ЇЁ«пв®а®ў */
 
-            /* Загрузка параметров программ */
+            /* ‡ Јаг§Є  Ї а ¬Ґва®ў Їа®Ја ¬¬ */
 
 void LoadTehParam(void)
 {
@@ -37,18 +37,18 @@ void LoadTehParam(void)
         INT col, str;
         float data;
 
-        for (jP0, str = 4; j > 0; j--, str++)
+        for (j = 500, str = 4; j > 0; j--, str++)
             for (i = 2, col = 4; i > 0; i--, col += 5)
             {
                 fscanf(in, "%f", &data);
                 if (feof(in))
                     goto exitloop;
-                (*Atab->tbl)[str][col]->dv.vrealЪta;
+                (*Atab->tbl)[str][col]->dv.vreal = data;
             }
     exitloop:;
         fclose(in);
     }
-}			/* Конец LoadTehPar */
+}			/* Љ®­Ґж LoadTehPar */
 
 BOOL CompTehParam(void)
 {
@@ -64,7 +64,7 @@ BOOL CompTehParam(void)
         register i, j;
         INT col, str;
 
-        for (jP0, str = 4; j > 0; j--, str++)
+        for (j = 500, str = 4; j > 0; j--, str++)
             for (i = 2, col = 4; i > 0; i--, col += 5)
                 fprintf(out, "%4.3f ", (*Atab->tbl)[str][col]->dv.vreal);
         fclose(out);
@@ -72,7 +72,7 @@ BOOL CompTehParam(void)
     }
 }
 
-/* Загрузка таблицы коррекций инструмента */
+/* ‡ Јаг§Є  в Ў«Ёжл Є®ааҐЄжЁ© Ё­бваг¬Ґ­в  */
 
 void LoadTabKorr(void)
 {
@@ -89,21 +89,21 @@ void LoadTabKorr(void)
         INT str, col;
         float dataL, dataR;
 
-        for (jP, str = 4; j > 0; j--, str += 2)
+        for (j = 50, str = 4; j > 0; j--, str += 2)
             for (i = 2, col = 3; i > 0; i--, col += 4)
             {
                 fscanf(in, "%f", &dataL);
                 fscanf(in, "%f", &dataR);
                 if (feof(in))
                     goto exitloop;
-                (*Atab->tbl)[str][col]->dv.vrealЪtaL;
-                (*Atab->tbl)[str + 1][col]->dv.vrealЪtaR;
+                (*Atab->tbl)[str][col]->dv.vreal = dataL;
+                (*Atab->tbl)[str + 1][col]->dv.vreal = dataR;
             }
     exitloop: fclose(in);
     }
-}                        /* Конец LoadTabKorr  */
+}                        /* Љ®­Ґж LoadTabKorr  */
 
-        /* Компиляция и сохранение коррекций нстр.*/
+        /* Љ®¬ЇЁ«пжЁп Ё б®еа ­Ґ­ЁҐ Є®ааҐЄжЁ© ­бва.*/
 
 BOOL CompTabKorr(void)
 {
@@ -119,7 +119,7 @@ BOOL CompTabKorr(void)
         register i, j;
         INT str, col;
 
-        for (jP, str = 4; j > 0; j--, str += 2)
+        for (j = 50, str = 4; j > 0; j--, str += 2)
             for (i = 2, col = 3; i > 0; i--, col += 4)
             {
                 fprintf(out, "%4.3f ", (*Atab->tbl)[str][col]->dv.vreal);
@@ -128,10 +128,10 @@ BOOL CompTabKorr(void)
         fclose(out);
         return TRUE;
     }
-} 			  /* Конец CompTabKorr  */
+} 			  /* Љ®­Ґж CompTabKorr  */
 
 
-              /* Загрузка таблицы смещений нуля */
+              /* ‡ Јаг§Є  в Ў«Ёжл б¬ҐйҐ­Ё© ­г«п */
 
 void LoadTabNull(void)
 {
@@ -148,23 +148,23 @@ void LoadTabNull(void)
         INT str, col, axn;
         float data;
 
-        for (k, str = 7; k > 0; k--, str + )
+        for (k = 10, str = 7; k > 0; k--, str += 19)
             for (j = 3, col = 3; j > 0; j--, col += 3)
-                for (i, axn = 0; i > 0; i--, axn++)
+                for (i = 16, axn = 0; i > 0; i--, axn++)
                 {
                     fscanf(in, "%f", &data);
                     if (feof(in))
                         goto exitloop;
-                    (*Atab->tbl)[str + axn][col]->dv.vrealЪta;
+                    (*Atab->tbl)[str + axn][col]->dv.vreal = data;
                     (*Atab->tbl)[str + axn][col - 2]->dv.vstr[0] = (CHAR)_AXADR[axn];
                     (*Atab->tbl)[str + axn][col - 2]->dv.vstr[1] = (CHAR)(_AXADR[axn] >> 8);
                 }
     exitloop: fclose(in);
     }
-}			 /* Конец LoadTabNull */
+}			 /* Љ®­Ґж LoadTabNull */
 
 
-           /* Компиляция и сохранение смещений нуля */
+           /* Љ®¬ЇЁ«пжЁп Ё б®еа ­Ґ­ЁҐ б¬ҐйҐ­Ё© ­г«п */
 
 BOOL CompTabNull(void)
 {
@@ -180,13 +180,12 @@ BOOL CompTabNull(void)
         register i, j, k;
         INT str, col, axn;
 
-        for (k, str = 7; k > 0; k--, str + )
+        for (k = 10, str = 7; k > 0; k--, str += 19)
             for (j = 3, col = 3; j > 0; j--, col += 3)
-                for (i, axn = 0; i > 0; i--, axn++)
+                for (i = 16, axn = 0; i > 0; i--, axn++)
                     fprintf(out, "%4.3f ", (*Atab->tbl)[str + axn][col]->dv.vreal);
         fclose(out);
         return TRUE;
     }
-}			/* Конец CompTabNull */
-
+}			/* Љ®­Ґж CompTabNull */
 

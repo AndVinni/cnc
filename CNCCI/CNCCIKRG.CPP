@@ -11,7 +11,8 @@
 #include "cncun2.h"
 #include "cncun1.h"
 #include "cncun3.h"
-#include "math.h"
+#define _USE_MATH_DEFINES
+#include <cmath>
 #define eps1 0.001
   void cnccikrg(void)
    {
