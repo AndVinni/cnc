@@ -16,8 +16,8 @@
 */
 
 
-
-#include <cmath.h>
+#define _USE_MATH_DEFINES
+#include <cmath>
 #include <stdio.h>
 #include <dos.h>
 #include "cncraz.h"
@@ -58,9 +58,9 @@ void cncicrfn(void)
 	}
 	cncieok();
 	if ((ktask Ifset MASKI
-		ktasks Ifset MASKI)
+		|| ktasks Ifset MASKI)
 		&& (!((ax_on & MASKI) ^ MASKI)
-			wcnc Ifset TESTNM))
+			|| wcnc Ifset TESTNM))
 	{
 		cncispd();
 		if (ltorm1 Ifset MASKI)
@@ -89,7 +89,7 @@ void cncicrfn(void)
 					xsin = -1.;
 				}
 				else
-					if (fi2 == (M_PI + M_PI)  fi2 == 0.)
+					if (fi2 == (M_PI + M_PI) || fi2 == 0.)
 					{
 						xcos = 1.;
 						xsin = 0.;
@@ -119,7 +119,7 @@ void cncicrfn(void)
 										fi2 = M_PI + M_PI - fi2;
 									}
 						xs1 = ABS(tan(fi2));
-						xs2 = 1.Ì(xs1, 2);
+						xs2 = 1. + pow(xs1, 2);
 						xs2 = ABS(sqrt(xs2));
 						if (xs2 != 0)
 						{
@@ -178,7 +178,7 @@ void cncicrfn(void)
 
 	}
 }
-/*ëèíåéíàÿ èíòåðïîëÿöèÿ 2 îñè áîê.ïîâ.öèëèíäðà*/
+/*«¨­¥©­ ï ¨­â¥à¯®«ïæ¨ï 2 ®á¨ ¡®ª.¯®¢.æ¨«¨­¤à */
 
 void xlincyl(void)
 {
@@ -200,7 +200,7 @@ void xlincyl(void)
 	}
 }
 
-/*êîíè÷åñêàÿ ñïèðàëü*/
+/*ª®­¨ç¥áª ï á¯¨à «ì*/
 void xkonuss(void)
 {
 	register BUF_STRUCT* byfv;
@@ -225,7 +225,7 @@ void xkonuss(void)
 		xtask[xk3] += xtakt[xk3];
 	}
 }
-/*êðóãîâàÿ èíòåðïîëÿöèÿ íà áîê. ïîâåðõíîñòè öèëèíäðà*/
+/*ªàã£®¢ ï ¨­â¥à¯®«ïæ¨ï ­  ¡®ª. ¯®¢¥àå­®áâ¨ æ¨«¨­¤à */
 
 void xkrugcyl(void)
 {
@@ -249,7 +249,7 @@ void xkrugcyl(void)
 		xtask[xk2] = x;
 	}
 }
-/*âèíòîâàÿ èíòåðïîëÿöèÿ*/
+/*¢¨­â®¢ ï ¨­â¥à¯®«ïæ¨ï*/
 
 void xvint(void)
 {
@@ -270,8 +270,8 @@ void xvint(void)
 
 		fi += (int)(xtakt[xk1] * _KF2[xk1]);
 
-		x = (long)(byfv->RC * cos(fi)'>AC);
-			xtakt[xk2] = (int)(x - xtask[xk2]);                  /* */
+		x = (long)(byfv->RC * cos(fi) + byfv->AC);
+		xtakt[xk2] = (int)(x - xtask[xk2]);                  /* */
 		xtask[xk2] = x;
 
 		x = (long)(byfv->RC * sin(fi) + byfv->BC);
@@ -279,7 +279,7 @@ void xvint(void)
 		xtask[xk3] = x;
 	}
 }
-/*íàðåçàíèå ðåçüáû ðåçöîì G33*/
+/*­ à¥§ ­¨¥ à¥§ì¡ë à¥§æ®¬ G33*/
 void xg33(void)
 {
 	register BUF_STRUCT* byfv;
@@ -306,7 +306,7 @@ void xg33(void)
 	}
 }
 
-/*íàðåçàíèå ðåçüáû  G?*/
+/*­ à¥§ ­¨¥ à¥§ì¡ë  G?*/
 void xg99(void)
 {
 	LONG x;
@@ -326,12 +326,12 @@ void xg99(void)
 
 		fi += (int)(xtakt[xk1] * _KF2[xk1]);
 
-		x = (int)(byfv->RC * cos(fi)'>AC);
-			xtakt[xk2] = (int)(x - xtask[xk2]);                  /* */
+		x = (int)(byfv->RC * cos(fi) + byfv->AC);
+		xtakt[xk2] = (int)(x - xtask[xk2]);                  /* */
 		xtask[xk2] = x;
 
-		x = (int)(byfv->RC * sin(fi)'>BC);
-			xtakt[xk3] = (int)(x - xtask[xk3]);
+		x = (int)(byfv->RC * sin(fi) + byfv->BC);
+		xtakt[xk3] = (int)(x - xtask[xk3]);
 		xtask[xk3] = x;
 
 		xtakt[xk4] = (int)(xtakt[xk1] * byfv->KF3);

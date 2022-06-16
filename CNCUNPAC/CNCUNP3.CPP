@@ -69,7 +69,7 @@ void cncunp3(void)
 				cncuzcp();
 				if (!(e_point))
 				{
-					size_b┘* ND;
+					size_b = 99 * ND;
 					if ((Tab_kord = (REAL*)malloc(size_b)) == NULL)
 						error(17);
 					if ((Tab_korh = (REAL*)malloc(size_b)) == NULL)
@@ -80,7 +80,7 @@ void cncunp3(void)
 				{
 					tab_kor_ds[i] = tab_kor_hs[i] = 0;
 					for (j = 0; j < ND; j++)
-						*(Tab_kord°) = *(Tab_korh°) = 0;
+						*(Tab_kord + i + j) = *(Tab_korh + i + j) = 0;
 				}
 			}
 			//	       else
@@ -100,7 +100,7 @@ void cncunp3(void)
 					}
 					else
 					{
-						if (((KBYF - tzbv)6) >= KKR)
+						if (((KBYF - tzbv) + tzbz) >= KKR)
 							sstaim Set WORK_PR;
 					}
 				}
@@ -150,7 +150,7 @@ void cncunp3(void)
 		{
 			Cnc_show();
 			cncur_pr(yp);
-			if (tab_kor_d!┘ && !(tab_kor_ds[tab_kor_d]))
+			if (tab_kor_d != 99 && !(tab_kor_ds[tab_kor_d]))
 			{
 				yp1[0] = '\0';
 				strcpy(yp1, yp);
@@ -162,7 +162,7 @@ void cncunp3(void)
 					error(18);
 				else
 				{
-					while ((rr = fscanf(fd, "lf ", (Tab_kord + tab_kor_d + i))) != EOF)
+					while ((rr = fscanf(fd, "%11lf ", (Tab_kord + tab_kor_d + i))) != EOF)
 					{
 						if (!(rr))
 						{
@@ -178,7 +178,7 @@ void cncunp3(void)
 				tab_kor_ds[tab_kor_d] = 1;
 				fclose(fd);
 			}
-			if (tab_kor_h!┘ && !(tab_kor_hs[tab_kor_h]))
+			if (tab_kor_h != 99 && !(tab_kor_hs[tab_kor_h]))
 			{
 				yp1[0] = '\0';
 				strcpy(yp1, yp);
@@ -190,7 +190,7 @@ void cncunp3(void)
 					error(18);
 				else
 				{
-					while ((rr = fscanf(fd, "lf ", (Tab_korh + tab_kor_h + i))) != EOF)
+					while ((rr = fscanf(fd, "%11lf ", (Tab_korh + tab_kor_h + i))) != EOF)
 					{
 						if (!(rr))
 						{
@@ -216,10 +216,10 @@ void cncunp3(void)
 		}
 		if (!(nzvk1[nomn] Ifset NO_WRK))
 		{
-			if (g[G_CIKL] != MAGC && g[G_CIKL]!└)
+			if (g[G_CIKL] != MAGC && g[G_CIKL] != 80)
 				ssrasp Set W_CIKL;
 			else
-				if (g[G_CIKL] = └)
+				if (g[G_CIKL] == 80)
 					ssrasp Clr W_CIKL;
 			if (x[I_P] != MAG && ~ssrasp Ifset W_CIKL)
 			{
@@ -254,18 +254,19 @@ void cncunp3(void)
 				x[I_K] = MAG;
 				}
 			}
-			//      if (!(g[GINT]==2 || g[GINT]==3 || g[GINT]=
-			//	  || g[GINT]= || g[GINT]==5)
+			//      if (!(g[GINT]==2 || g[GINT]==3 || g[GINT]==12
+			//	  || g[GINT]==13 || g[GINT]==5)
 			//	   && x[I_K]!=MAG)
 			//	 error(125);
 			if (sswbyff Ifset ER_READ && nomn != 4)
 				break;
 			if (nzvk[nomn] Ifset MDV || vd_vr != 0l)
-				strk Clr FKK;	       /*FEOK яЁхф√фє∙хую ърфЁр=0*/
+				strk Clr FKK;	       /*FEOK предыдущего кадра=0*/
 			else
 				strk Set FKK;
-			if (g[22] = ")
-			{ x[I_H] = MAG;
+			if (g[22] == 22)
+			{
+				x[I_H] = MAG;
 				x[I_K] = MAG;
 			}
 			if (x[I_H] != MAG)
@@ -274,30 +275,30 @@ void cncunp3(void)
 					hf = *(Tab_korh + tab_kor_h + (INT)(x[I_H]));
 				else
 					hf = 0;
-					strk Set PRH;
-					x[I_H] = MAG;
+				strk Set PRH;
+				x[I_H] = MAG;
 			}
-			if (x[I_D] != MAG && g[8] == MAGC && g[9] == MAGC)    /*ъюЁ-Ўш  эр Ёрфшєё*/
+			if (x[I_D] != MAG && g[8] == MAGC && g[9] == MAGC)    /*кор-ция на радиус*/
 			{
-				if ((gf[8] = @ && gf[8] == MAGC) && (gf[9] = 0 && gf[9] == MAGC))
+				if ((gf[8] == 40 && gf[8] == MAGC) && (gf[9] == 140 && gf[9] == MAGC))
 					error(22);
 				else
 				{
-					if (gf[8]!@
+					if (gf[8] != 40
 						&& gf[8] != MAGC)
 					{
 						if (x[I_D] != 0)
 							rfr = *(Tab_kord + tab_kor_d + (INT)(x[I_D]));
 						else
 							strk Set OKT;
-						if ((g[1] == 2 || g[1] =  || g[1] == 3
-							|| g[1] =  || g[1] == 5
+						if ((g[1] == 2 || g[1] == 12 || g[1] == 3
+							|| g[1] == 13 || g[1] == 5
 							|| (g[1] != 1 && g[1] != 0
-								&& (gf[1] == 2 || gf[1] =  || gf[1] == 3
-									|| gf[1] =  || gf[1] == 5)))
-							|| (g[18] == MAGC && gf[18]!└)
-							|| g[18] = └
-							|| (g[18] != MAGC && g[18]!└))
+								&& (gf[1] == 2 || gf[1] == 12 || gf[1] == 3
+									|| gf[1] == 13 || gf[1] == 5)))
+							|| (g[18] == MAGC && gf[18] != 80)
+							|| g[18] == 80
+							|| (g[18] != MAGC && g[18] != 80))
 							error(23);
 					}
 					else
@@ -307,7 +308,7 @@ void cncunp3(void)
 						{
 							if (x[I_D] != 0)
 							{
-								if ((gf[9] - (i_racp * 100)) = D)
+								if ((gf[9] - (i_racp * 100)) == 44)
 									kor_d[i_racp] = -*(Tab_kord + tab_kor_d + (INT)(x[I_D]));
 								else
 									kor_d[i_racp] = 0;
@@ -315,64 +316,64 @@ void cncunp3(void)
 							else
 							{
 								kor_d[i_racp] = 0;
-								gf[9]0;
+								gf[9] = 140;
 							}
 						}
 						else
 						{
-							gf[9]0;
+							gf[9] = 140;
 							kor_d[i_racp] = 0;
 							error(23);
 						}
-						if ((g[1] == 2 || g[1] =  || g[1] == 3
-							|| g[1] =  || g[1] == 5
+						if ((g[1] == 2 || g[1] == 12 || g[1] == 3
+							|| g[1] == 13 || g[1] == 5
 							|| (g[1] != 1 && g[1] != 0
-								&& (gf[1] == 2 || gf[1] =  || gf[1] == 3
-									|| gf[1] =  || gf[1] == 5)))
-							|| (g[18] == MAGC && gf[18]!└)
-							|| g[18] = └
-							|| (g[18] != MAGC && g[18]!└))
+								&& (gf[1] == 2 || gf[1] == 12 || gf[1] == 3
+									|| gf[1] == 13 || gf[1] == 5)))
+							|| (g[18] == MAGC && gf[18] != 80)
+							|| g[18] == 80
+							|| (g[18] != MAGC && g[18] != 80))
 							error(23);
 					}
 				}
 				x[I_D] = MAG;
 			}
 			x[I_N] = MAG;
-			if (g[17] != MAGC)           /*чрфрэшх яюфрўш т ьь/ьшэ шыш ьь/юс*/
+			if (g[17] != MAGC)           /*задание подачи в мм/мин или мм/об*/
 			{
 				gf[17] = g[17];
-				if (gf[17] = ╘)
+				if (gf[17] == 94)
 					nzvk2[nomn] Set G_94;
 				else
 					nzvk2[nomn] Clr G_94;
 				g[17] = MAGC;
 			}
-			if (x[I_F] != MAG)         /*чэрўхэшх яюфрўш*/
+			if (x[I_F] != MAG)         /*значение подачи*/
 			{
 				f_tz = x[I_F];
 				x[I_F] = MAG;
 			}
-			if (g[16] != MAGC)            /*чрфрэшх рсё.-юЄэюёшЄ. ЁрёўхЄр*/
+			if (g[16] != MAGC)            /*задание абс.-относит. расчета*/
 			{
 				gf[16] = g[16];
 				g[16] = MAGC;
-				if (gf[16] = ╨)
+				if (gf[16] == 90)
 					nzvk[nomn] Set PRA;
 				else nzvk[nomn] Clr PRA;
 			}
 
-			if (g[14] != MAGC)           /*єёЄрэютър яюфрўш эр 100% */
+			if (g[14] != MAGC)           /*установка подачи на 100% */
 			{
 				gf[14] = g[14];
 				g[14] = MAGC;
-				if (gf[14] = c)
+				if (gf[14] == 63)
 					nzvk[nomn] Set PP100;
 				else nzvk[nomn] Clr PP100;
 			}
-			if (g[23] != MAGC)           /*яЁюуЁрььшЁютрэшх KV*/
+			if (g[23] != MAGC)           /*программирование KV*/
 			{
 				nzvk[nomn] Clr PKV;
-				if (g[23]!)
+				if (g[23] != 15)
 				{
 					for (iio = 0; iio < NUM; iio++)
 					{
@@ -397,9 +398,9 @@ void cncunp3(void)
 				gf[23] = g[23];
 				g[23] = MAGC;
 			}
-			if (g[8] != MAGC || g[9] != MAGC)     /*чрфрэшх ъюЁЁхъЎшш*/
+			if (g[8] != MAGC || g[9] != MAGC)     /*задание коррекции*/
 			{
-				if (g[8] = @)
+				if (g[8] == 40)
 				{
 					if (!(x[I_D] == MAG || x[I_D] == 0.))
 						error(22);
@@ -413,7 +414,7 @@ void cncunp3(void)
 						else
 							rfr = *(Tab_kord + tab_kor_d + (INT)(x[I_D]));
 					}
-				if (g[9] = 0)
+				if (g[9] == 140)
 				{
 					if (!(x[I_D] == MAG || x[I_D] == 0))
 						error(22);
@@ -429,21 +430,21 @@ void cncunp3(void)
 						i_racp = gf[9] / 100;
 						if (i_racp < _NF && i_racp>0)
 						{
-							if ((gf[9] - (i_racp * 100)) = D)
+							if ((gf[9] - (i_racp * 100)) == 44)
 								kor_d[i_racp] = -*(Tab_kord + tab_kor_d + (INT)(x[I_D]));
 							else
 								kor_d[i_racp] = 0;
-							gf[9]0;
+							gf[9] = 140;
 						}
 						else
 							rfr = *(Tab_kord + tab_kor_d + (INT)(x[I_D]));
 					}
-				if ((g[8] = A || g[8] = B)
-					&& !(gf[8] = A || gf[8] = B))
+				if ((g[8] == 41 || g[8] == 42)
+					&& !(gf[8] == 41 || gf[8] == 42))
 					mir Set P164;
-				if (g[8] != MAGC && g[8]!@) gf[8] = g[8];
+				if (g[8] != MAGC && g[8] != 40) gf[8] = g[8];
 				if (g[9] != MAGC) gf[9] = g[9];
-				if (gf[8] = A)
+				if (gf[8] == 41)
 				{
 					nzvk2[nomn] Set G_41;
 					nzvk2[nomn] Clr G_42;
@@ -457,20 +458,20 @@ void cncunp3(void)
 				g[9] = MAGC;
 				x[I_D] = MAG;
 			}
-			if (g[4] != MAGC)                /*чрфрэшх яыюёъюёЄш ЁрёўхЄр*/
+			if (g[4] != MAGC)                /*задание плоскости расчета*/
 				cncugr4();
 			if (g[10] != MAGC || g[11] != MAGC || g[12] != MAGC || g[13] != MAGC)
-			{        /*чрфрэшх чэрўхэшщ ёьх∙хэш  эєы */
-				if (!(g[5] == MAGC || g[5] = ')
+			{        /*задание значений смещения нуля*/
+				if (!(g[5] == MAGC || g[5] == 27)
 					||
-					!(gf[5] == MAGC || gf[5] = '))
-						error(29);
+					!(gf[5] == MAGC || gf[5] == 27))
+					error(29);
 				else
-						cnccism0();
+					cnccism0();
 				strk Clr FKK;
 				g[10] = g[11] = g[12] = g[13] = MAGC;
 			}
-			if (g[3] != MAGC)              /*яЁюуЁрььшЁютрэшх Ёрчуюэр*/
+			if (g[3] != MAGC)              /*программирование разгона*/
 			{
 				nzvk[nomn] Clr RZG;
 				strk Clr FKK;
@@ -499,10 +500,11 @@ void cncunp3(void)
 				gf[3] = g[3];
 				g[3] = MAGC;
 			}
-			if (g[5] != MAGC)         /*чюэр юсЁрсюЄъш*/
+			if (g[5] != MAGC)         /*зона обработки*/
 			{
-				if (g[5]!')
-				{  strk Set OZON;
+				if (g[5] != 27)
+				{
+					strk Set OZON;
 					for (iio = 0; iio < NUM; iio++)
 					{
 						if (x[iio] != MAG && _MASKF Ifset BIT(iio))
@@ -511,10 +513,10 @@ void cncunp3(void)
 							{
 							case 25:
 								exl25[iio] = x[iio];
-									if (nzvk[nomn] Ifset PRA)
-										exl25[iio] += rsm0[iio];
-									else
-										exl25[iio] += tek[iio];
+								if (nzvk[nomn] Ifset PRA)
+									exl25[iio] += rsm0[iio];
+								else
+									exl25[iio] += tek[iio];
 								ogr25 Set BIT(iio);
 								break;
 							case 125:
@@ -562,18 +564,18 @@ void cncunp3(void)
 				g[5] = MAGC;
 			}
 			else
-					if (strk Ifset OZON)
-					{
-						strk Clr OZON;
-						for (iio = 0; iio < NUM; iio++)
-							if (exl25[iio] > exr25[iio] ||
-								exr26[iio] < exl26[iio])
-								error(34);
-					}
-			if (g[6] != MAGC)            /*чрьхфыхэшх эр єуырї*/
+				if (strk Ifset OZON)
+				{
+					strk Clr OZON;
+					for (iio = 0; iio < NUM; iio++)
+						if (exl25[iio] > exr25[iio] ||
+							exr26[iio] < exl26[iio])
+							error(34);
+				}
+			if (g[6] != MAGC)            /*замедление на углах*/
 			{
 				gf[6] = g[6];
-				if (g[6] = ) || g[6] = 9)
+				if (g[6] == 29 || g[6] == 129)
 				{
 					nzvk[nomn] Set YGL;
 					if (x[I_K] == MAG)
@@ -581,12 +583,12 @@ void cncunp3(void)
 						if (k_6 == MAG)
 						{
 							error(36);
-							gf[6]0;
+							gf[6] = 30;
 							nzvk[nomn] Clr YGL;
 						}
 					}
 					else
-					{ /* яхЁхтхёЄш т шэъЁхьхэЄ√ */
+					{ /* перевести в инкременты */
 						k_6 = x[I_K];
 						x[I_K] = MAG;
 					}
@@ -595,7 +597,7 @@ void cncunp3(void)
 						if (f_6 == MAG)
 						{
 							error(37);
-							gf[6]0;
+							gf[6] = 30;
 							nzvk[nomn] Clr YGL;
 						}
 					}
@@ -609,9 +611,9 @@ void cncunp3(void)
 					nzvk[nomn] Clr YGL;
 				g[6] = MAGC;
 			}
-			else if (gf[6] = 9)
+			else if (gf[6] == 129)
 			{
-				gf[6]0;
+				gf[6] = 30;
 				nzvk[nomn] Clr YGL;
 			}
 			if (g[24] != MAGC)             /* G09 */
@@ -620,7 +622,7 @@ void cncunp3(void)
 				g[24] = MAGC;
 			}
 			else nzvk[nomn] Clr TORM;
-			if (g[25] != MAGC)          /*ярєчр*/
+			if (g[25] != MAGC)          /*пауза*/
 			{
 				if (x[I_P] == MAG)
 					error(39);
@@ -634,25 +636,25 @@ void cncunp3(void)
 				vd_vr = 0.;
 				gf[25] = MAGC;
 			}
-			if (g[15] != MAGC)     /*юсїюф єуыют*/
+			if (g[15] != MAGC)     /*обход углов*/
 			{
 				gf[15] = g[15];
 				g[15] = MAGC;
 			}
-			if (g[19] != MAGC)     /* Єшя юЄтюфр т Ўшъырї*/
+			if (g[19] != MAGC)     /* тип отвода в циклах*/
 			{
 				gf[19] = g[19];
 				g[19] = MAGC;
 			}
 			cncunums();
-			/*юсЁрсюЄър шэЄхЁяюы Ўшш схч чрфрэш  G-ЇєэъЎшщ*/
+			/*обработка интерполяции без задания G-функций*/
 			for (iio = 0; iio < NUM; iio++)
 			{
 				if (x[iio] != MAG && _MASKF Ifset BIT(iio))
 				{
 					if (g[1] == MAGC && g[18] == MAGC && g[2] == MAGC)
 					{
-						if (gf[18]!└)
+						if (gf[18] != 80)
 							g[18] = gf[18];
 						else
 							if (g[1] == MAGC)
@@ -665,14 +667,14 @@ void cncunp3(void)
 			if (iio > NUM && (g[18] != MAGC || g[1] != MAGC || g[2] != MAGC))
 				error(124);
 			cncuintf();
-		obrc:	if (g[18] != MAGC)    /*юсЁрсюЄър Ўшъыют*/
+		obrc:	if (g[18] != MAGC)    /*обработка циклов*/
 		{
 			gf[18] = g[18];
 			if (f_tz == MAG)
 				error(37);
 			ef[nomn] = 0;
 			strk Clr OOY;
-			if (g[18] = └)
+			if (g[18] == 80)
 			{
 				nzvk[nomn] Clr CIKL;
 			}
@@ -698,7 +700,7 @@ void cncunp3(void)
 			}
 		}
 		else
-			obri:	if (g[1] != MAGC)     /*юсЁрсюЄър шэЄхЁяюы Ўшш*/
+			obri:	if (g[1] != MAGC)     /*обработка интерполяции*/
 		{
 			gf[1] = g[1];
 			switch (g[1])
@@ -749,18 +751,18 @@ void cncunp3(void)
 			else
 			if (g[2] != MAGC)
 			{
-				if (g[2] = 1)
+				if (g[2] == 31)
 					mir Set P165;
-				if (g[2] = 2)
+				if (g[2] == 32)
 					mir Set P166;
-				if (g[2] = 1 || g[2] = 2)
+				if (g[2] == 31 || g[2] == 32)
 					cncugekv();
 				gf[2] = g[2];
 				g[2] = MAGC;
 			}
 		if (nzvk1[nomn] Ifset END_PR)
 		{
-			if (gf[8]!@)
+			if (gf[8] != 40)
 				strk Set OKT;
 			/* M05 !!! */
 		}
