@@ -184,7 +184,7 @@ protected:
 
     void    _Cdecl setstate(int);       // set all status bits
 
-static  void (*stdioflush)();
+static  void _Cdecl (*stdioflush)();
 
 private:
     // for extra flag bits and user words

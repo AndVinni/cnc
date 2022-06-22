@@ -1,6 +1,4 @@
-#define _USE_MATH_DEFINES 
 #include <stdio.h>
-#include <cmath>
 #include "cncraz.h"
 #include "cnccdef.h"
 #include "cnchard.h"
@@ -8,6 +6,7 @@
 #include "cncun2.h"
 #include "cncun3.h"
 #include "cncvoidi.h"
+#include <math.h>
 #include "cnccstat.h"
 #include "cnccsti.h"
 

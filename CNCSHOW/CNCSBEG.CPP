@@ -1,13 +1,13 @@
-/*  	cncsbeg.ёpp v01.01
+/*  	cncsbeg.сpp v01.01
 
-	╩юэёЄЁєъЄюЁ ш фхёЄЁєъЄюЁ яЁюуЁрьь шэфшърЎшш
+	Конструктор и деструктор программ индикации 
 
-	╘єэъЎш   : Beginer
-	╧юфяЁюхъЄ: CNCSHOW
-	╧ЁюхъЄ:    ELMIS CNC.
+	Функция  : Beginer
+	Подпроект: CNCSHOW
+	Проект:    ELMIS CNC.
 
 	Copyright (c) ELMIS, 1993
-	┬ёх яЁртр чр∙ш∙хэ√.
+	Все права защищены.
 */
 
 #include <stdio.h>
@@ -31,117 +31,117 @@
 #include "cncsgeom.h"
 #include "cncsfun.h"
 
-/* ╚эшЎшрышчрЎш  CNCSHOW */
+			/* Инициализация CNCSHOW */
 BOOL Beginer()
-{
-	register i;
+{ 
+ register i;
 
-	(*CNC_Screen.SetVideoDevice)(&CNC_Screen);
+ (*CNC_Screen.SetVideoDevice)(&CNC_Screen);
 
-	MainBord(CNC_Screen.VideoMode);	/* ═рЁшёютрЄ№ юёэютэє■ ърЁЄшэъє */
-					   /* ╟руpєчър ЄхъёЄют pхцшьют ёЄрэър */
-	ReadMsg(&ModeTool, "\\cnc\\cncrsc\\cncsmtll.msg");
+ MainBord(CNC_Screen.VideoMode);	/* Нарисовать основную картинку */
+					/* Загpузка текстов pежимов станка */
+ ReadMsg(&ModeTool,"\\cnc\\cncrsc\\cncsmtll.msg");
 
+					
+ ReadMsg(&Config,"\\cnc\\cncrsc\\cncs.cfg");  /* Загрузка файла гонфигурации */
 
-	ReadMsg(&Config, "\\cnc\\cncrsc\\cncs.cfg");  /* ╟руЁєчър Їрщыр уюэЇшуєЁрЎшш */
+					      /* Загpузка большого шpифта */
+ ReadMsg(&BigFont,"\\cnc\\cncrsc\\cncscga.fnt");
 
-							 /* ╟руpєчър сюы№°юую °pшЇЄр */
-	ReadMsg(&BigFont, "\\cnc\\cncrsc\\cncscga.fnt");
+ ReadMsg(&Mesage,"\\cnc\\cncrsc\\cncsmsg.msg");
 
-	ReadMsg(&Mesage, "\\cnc\\cncrsc\\cncsmsg.msg");
+			/* Освобождение пам. под тексты текущего режима */
+ CurentMsg=(STRING*)calloc(5,sizeof(STRING));
+ for(i=0;i< (QUANTWIND+2);i++)
+  if( ( CurentMsg[i]=(STRING)calloc(MAXSTR,sizeof(CHAR))) ==NULL )
+   SetError(8,1,5,5,NOBLOCKFID);
 
-	/* ╬ётюсюцфхэшх ярь. яюф ЄхъёЄ√ Єхъє∙хую Ёхцшьр */
-	CurentMsg = (STRING*)calloc(5, sizeof(STRING));
-	for (i = 0; i < (QUANTWIND + 2); i++)
-		if ((CurentMsg[i] = (STRING)calloc(MAXSTR, sizeof(CHAR))) == NULL)
-			SetError(8, 1, 5, 5, NOBLOCKFID);
+			/* Запомнить старый вектор обработки клавиатуры */
+ PtrNewVect=getvect(NEWVECTKEY);
+ Ptroldvect=getvect(VECTKEY);
 
-	/* ╟ряюьэшЄ№ ёЄрЁ√щ тхъЄюЁ юсЁрсюЄъш ъыртшрЄєЁ√ */
-	PtrNewVect = getvect(NEWVECTKEY);
-	Ptroldvect = getvect(VECTKEY);
+ setvect(VECTKEY,Getscancod);                    /* Установить новый вектор*/
+ setvect(NEWVECTKEY,Ptroldvect);
 
-	setvect(VECTKEY, Getscancod);                    /* ╙ёЄрэютшЄ№ эют√щ тхъЄюЁ*/
-	setvect(NEWVECTKEY, Ptroldvect);
+ PtrIbmErr=getvect(ERRVECT);                     /* Ловим ошибки MS DOS */
+ setvect(ERRVECT,IbmError);
 
-	PtrIbmErr = getvect(ERRVECT);                     /* ╦ютшь ю°шсъш MS DOS */
-	setvect(ERRVECT, IbmError);
+ #ifdef DEBUG
+				/* Установить нагло новую п/п обр. таймера */
+ PtrNTimer=getvect(NEWVECTIMER); /* Запомним содерж нового вектора */
+ PtrTimer=getvect(VECTIMER);     /* Старый вектор на новое место */
+ setvect(NEWVECTIMER,PtrTimer);
+ setvect(VECTIMER,taim);         /* Новую программу на старое место */
+ #endif
 
-#ifdef DEBUG
-	/* ╙ёЄрэютшЄ№ эруыю эютє■ я/я юсЁ. ЄрщьхЁр */
-	PtrNTimer = getvect(NEWVECTIMER); /* ╟ряюьэшь ёюфхЁц эютюую тхъЄюЁр */
-	PtrTimer = getvect(VECTIMER);     /* ╤ЄрЁ√щ тхъЄюЁ эр эютюх ьхёЄю */
-	setvect(NEWVECTIMER, PtrTimer);
-	setvect(VECTIMER, taim);         /* ═ютє■ яЁюуЁрььє эр ёЄрЁюх ьхёЄю */
-#endif
-
-// InitCom(PLC); 				/* ╚эшЎшрышчшЁєхь яюЁЄ√ т/т */
+// InitCom(PLC); 				/* Инициализируем порты в/в */
 // InitCom(DRC);
 
-	DataReg = peek(BIOSDATA, PRINTERPORT);	/* ═юьхp ярpрыхы№эюую яюpЄр */
-	StatReg = DataReg + 1;
-	ContrReg = StatReg + 1;
+ DataReg=peek(BIOSDATA,PRINTERPORT);	/* Номеp паpалельного поpта */
+ StatReg=DataReg+1;
+ ContrReg=StatReg+1;
 
-#ifndef DEBUG
-	/* ╤эшьрхь ёЄЁюс фрээ√х уюЄют√ т ярЁ. яюЁЄє */
-	outportb(ContrReg, '\0');
-#endif
+ #ifndef DEBUG
+ /* Снимаем строб данные готовы в пар. порту */
+ outportb(ContrReg,'\0');
+ #endif
 
-	/*  ╨рёўхЄ  ёЁхфэшї ьръёшьры№э√ї яюфрў фы  Ёєўэ√ї яхЁхьх∙хэшщ */
+	/*  Расчет  средних максимальных подач для ручных перемещений */
 
-	for (i = 0; i < _NAX; i++)
-		if (HandMax[0] < _HANDG00[i])
-			HandMax[0] = _HANDG00[i];
-	for (i = 0; i < _NAX; i++)
-		if (HandMax[1] < _HANDF3[i])
-			HandMax[1] = _HANDF3[i];
-	for (i = 0; i < _NAX; i++)
-		if (HandMax[2] < _HANDF2[i])
-			HandMax[2] = _HANDF2[i];
-	for (i = 0; i < _NAX; i++)
-		if (HandMax[3] < _HANDF1[i])
-			HandMax[3] = _HANDF1[i];
-	for (i = 4; i < 8; i++)
-		HandMax[i] = _HANDG00[0];
+ for (i=0;i<_NAX;i++)
+  if(HandMax[0] < _HANDG00[i])
+   HandMax[0]=_HANDG00[i] ;
+ for (i=0;i<_NAX;i++)
+  if(HandMax[1] < _HANDF3[i])
+   HandMax[1]=_HANDF3[i] ;
+ for (i=0;i<_NAX;i++)
+  if(HandMax[2] < _HANDF2[i])
+   HandMax[2]=_HANDF2[i] ;
+ for (i=0;i<_NAX;i++)
+  if(HandMax[3] < _HANDF1[i])
+   HandMax[3]=_HANDF1[i] ;
+ for (i=4;i< 8;i++)
+  HandMax[i]=_HANDG00[0];
 
-	/* ┬√ўшёыхэшх юс∙хую ъюышўхёЄтр шэфшЎшЁєхь√ї юёхщ */
+		/* Вычисление общего количества индицируемых осей */
 
-	for (i = 0; i < _NAX; i++)
-		if (_INDAX Ifset AX(i) Or _INDAXD Ifset AX(i))
-			AllAxIndicated++;
-		else
-			continue;
+ for(i=0;i<_NAX;i++)
+  if(_INDAX Ifset AX(i) Or _INDAXD Ifset AX(i))
+   AllAxIndicated++;
+  else
+   continue;
 
-	/* ╙ёЄЁющёЄтр ттюфр/т√тюфр яю єьюыўрэш■ */
-	FileHanding(IN_DRIVE_SET, HD_CNC);		      /* ┬шэўхёЄхЁ тїюфэющ */
-	FileHanding(OUT_DRIVE_SET, FD_CNC);		      /* ┼─ т√їюфэющ */
-	AccReset();			       /* ╤э Є№ чряЁюё эр юЄъы■ўхэшх юсьхэр */
-	NewTime();			       /* ═ютр  ўрёЄюЄр ЄрщьхЁр */
-	return TRUE;			       /* ╘ыру - шэшЎшрышчрЎш  чръюэўхэр*/
+ /* Устройства ввода/вывода по умолчанию */
+ FileHanding(IN_DRIVE_SET,HD_CNC);		      /* Винчестер входной */
+ FileHanding(OUT_DRIVE_SET,FD_CNC);		      /* ЕД выходной */
+ AccReset();			       /* Снять запрос на отключение обмена */
+ NewTime();			       /* Новая частота таймера */
+ return TRUE;			       /* Флаг - инициализация закончена*/
 }
 
-/* ┬√їюф  т ─╬╤ */
+			/* Выход  в ДОС */
 
 void Shell()
 {
-	OldTime();			/* ┬юёёЄрэютшЄ№ ёЄрЁє■ ўрёЄюЄє ЄрщьхЁр  */
+ OldTime();			/* Восстановить старую частоту таймера  */
 
-#ifndef DEBUG
-	outportb(ContrReg, '\16');	      /* ┬юёёЄрэютшЄ№ уюЄютэюёЄ№ ярЁ. яюЁЄр */
-#endif
+ #ifndef DEBUG
+ outportb(ContrReg,'\16');	      /* Восстановить готовность пар. порта */
+ #endif
 
-	setvect(VECTIMER, PtrTimer);         /* ┬юёёЄрэютшЄ№ ёЄрЁ. я/я юсЁ. ЄрщьхЁр */
-	setvect(NEWVECTIMER, PtrNTimer);
+ setvect(VECTIMER,PtrTimer);         /* Восстановить стар. п/п обр. таймера */
+ setvect(NEWVECTIMER,PtrNTimer);
 
 
-	setvect(ERRVECT, PtrIbmErr);		  /* ┬юёёЄрэртыштрхь юсЁрсюЄўшъ ю°. */
+ setvect(ERRVECT,PtrIbmErr);		  /* Восстанавливаем обработчик ош. */
 
-					  /* ┬юёёЄрэютшЄ№ яЁхЁ√трэшх юЄ ъыртшрЄєЁ√ */
-	Ptroldvect = getvect(NEWVECTKEY);
-	setvect(VECTKEY, Ptroldvect);
-	setvect(NEWVECTKEY, PtrNewVect);
+				   /* Восстановить прерывание от клавиатуры */
+ Ptroldvect=getvect(NEWVECTKEY);
+ setvect(VECTKEY,Ptroldvect);
+ setvect(NEWVECTKEY,PtrNewVect);
 
-	Color(FBLACK, FLIGHTGRAY);				 /* ╬ўшёЄшЄ№ ¤ъЁрэ */
-	clrscr();
+ Color(FBLACK,FLIGHTGRAY);				 /* Очистить экран */
+ clrscr();
 }
 
 

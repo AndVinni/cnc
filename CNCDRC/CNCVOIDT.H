@@ -3,30 +3,30 @@
 #endif
 
 #ifdef __cplusplus
-void interrupt _FAR taim(...);  /* яЁюуЁрььр юсЁрсюЄъш ЄрщьхЁр */
+  void interrupt _FAR taim(...);  /* программа обработки таймера */
 #else
-void interrupt taim(void);
+  void interrupt taim(void);
 #endif
-void	       cnctmm(void),  /* юсЁрсюЄър фтшцхэш  юЄ ъэюяюъ */
-cnctsm(void),  /* юсЁрсюЄър юёЄрэютр фтшц. яю +/- */
-cnctstp(void), /* юсЁрсюЄър ёЄюяютюую ъюы№Ўр ЄрщьхЁр */
-cnctbgmn(void), /* ЇюЁ. чрфрэш  фы  яЁю-ь шэЄхЁя.*/
-cnctcmm(void),  /* ЇюЁьшЁютрэшх яЁюь.фрээ√ї юёЄрэютр */
-cnctbgn(void), /* юсЁрсюЄър яЁшчэрър чрфрэш  */
-cnctio(void),  /* юсЁрсюЄър чрфрэш  ё шэЄхЁЇхщёр */
-cnctend(void), /* юсЁрсюЄър ъюэЎр ърфЁр */
-cnctcm(void),  /* яЁюфюыцхэшх фтшцхэш  */
-cnctres(void), /* ёсЁюё чрфрэш  */
-cnctszr(void), /* юсэєыхэшх сєЇхЁр */
-cnctnext(void),/* яхЁхїюф эр ёыхфє■∙шщ ърфЁ */
-cnctrpr();     /* ёт ч№ яю IRPR  */
-void      cnctcom2(void), /* ёт ч№ ё COM2 */
-cnctirps(void), /* юсЁрсюЄър ттюфр-т√тюфр */
-cnctinit(void), /* яЁюуЁрььр эрўры№эющ шэшЎшрышчрЎшш */
-cnctcbf(void),  /* ўЄхэшх COM2 */
-cnctcbff(void); /* ЇюЁьшЁютрэшх сєЇхЁр ттюфр ё COM2 */
-void      cnctmfun(),  /*  ЇюЁьшЁютрэшх ╠-ЇєэъЎшщ  */
-cnctcom1(void), /* яЁюуЁрььр яхЁхфрўш NC-PC */
-cnctinfm(void); /* шэЇюЁьрЎшюээ√щ сыюъ */
-void      cnctrc2(),/* яЁютхЁър уюЄютэюёЄш ърэрыр COM2 */
-cnctrc1();  /*  яЁютхЁър уюЄютэюёЄш ърэрыр COM1 */
+  void	   cnctmm(void),  /* обработка движения от кнопок */
+	       cnctsm(void),  /* обработка останова движ. по +/- */
+	       cnctstp(void), /* обработка стопового кольца таймера */
+	       cnctbgmn(void), /* фор. задания для про-м интерп.*/
+	       cnctcmm(void),  /* формирование пром.данных останова */
+	       cnctbgn(void), /* обработка признака задания */
+	       cnctio(void),  /* обработка задания с интерфейса */
+	       cnctend(void), /* обработка конца кадра */
+	       cnctcm(void),  /* продолжение движения */
+	       cnctres(void), /* сброс задания */
+	       cnctszr(void), /* обнуление буфера */
+	       cnctnext(void),/* переход на следующий кадр */
+	       cnctrpr();     /* связь по IRPR  */
+    void      cnctcom2(void), /* связь с COM2 */
+	      cnctirps(void), /* обработка ввода-вывода */
+	      cnctinit(void), /* программа начальной инициализации */
+	      cnctcbf(void),  /* чтение COM2 */
+	      cnctcbff(void); /* формирование буфера ввода с COM2 */
+    void      cnctmfun(),  /*  формирование М-функций  */
+	      cnctcom1(void), /* программа передачи NC-PC */
+	      cnctinfm(void); /* информационный блок */
+    void      cnctrc2(),/* проверка готовности канала COM2 */
+	      cnctrc1();  /*  проверка готовности канала COM1 */

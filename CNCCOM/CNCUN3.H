@@ -7,7 +7,7 @@
 		  speed,f_tz,
 		  elast[5][NUM],
 		  c1,c2,
-		  x1,x2,/*y1,*/ y2,
+		  x1,x2,y1,y2,
 		  hf1,
 		  polar[NUM],
 		  delta,

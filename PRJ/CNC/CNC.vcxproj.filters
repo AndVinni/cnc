@@ -225,12 +225,6 @@
     <ClCompile Include="..\..\CNCSHOW\CNCSTED.CPP">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\CNCSHOW\CNCSTEDC.CPP">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CNCSHOW\CNCSTIO.CPP">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\CNCSHOW\CNCSVAR.CPP">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -368,6 +362,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CNC.APS" />
-    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

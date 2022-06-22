@@ -31,14 +31,12 @@
 #pragma option -po-
 #endif
 
-_CLASSDEF(Object);
-_CLASSDEF(Error);
-
-auto ErrorMsgTxt = "Error";
+_CLASSDEF(Object)
+_CLASSDEF(Error)
 
 class _CLASSTYPE Object
 {
-    ;
+
 public:
 
     virtual ~Object()
@@ -127,7 +125,7 @@ public:
 
     virtual char _FAR *nameOf() const
         {
-        return (char*)ErrorMsgTxt;
+        return (char*)"Error";
         }
 
     virtual hashValueType hashValue() const

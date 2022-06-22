@@ -100,13 +100,13 @@ int         _Cdecl heapwalk(struct heapinfo *__hi);
 #endif  /* WINDOWS */
 
 #if !defined(__STDC__)
-void _FAR  * _Cdecl farcalloc(unsigned long __nunits, unsigned long __unitsz);
+void far  * _Cdecl farcalloc(unsigned long __nunits, unsigned long __unitsz);
 unsigned long _Cdecl farcoreleft(void);
-void        _Cdecl farfree(void _FAR *__block);
-void _FAR* _Cdecl farmalloc(unsigned long __nbytes);
-void _FAR* _Cdecl farrealloc(void _FAR *__oldblock, unsigned long __nbytes);
+void        _Cdecl farfree(void far *__block);
+void far  * _Cdecl farmalloc(unsigned long __nbytes);
+void far  * _Cdecl farrealloc(void far *__oldblock, unsigned long __nbytes);
 int         _Cdecl farheapcheck(void);
-int         _Cdecl farheapchecknode(void _FAR *__node);
+int         _Cdecl farheapchecknode(void far *__node);
 int         _Cdecl farheapfillfree(unsigned int __fillvalue);
 int         _Cdecl farheapcheckfree(unsigned int __fillvalue);
 int         _Cdecl farheapwalk(struct farheapinfo *__hi);

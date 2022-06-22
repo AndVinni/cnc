@@ -1,7 +1,6 @@
 #include "cnchard.h"
 #include "cncraz.h"
 #include "cnccdef.h"
-
    REAL *nt,      /*коо-ты конечной точки кадра*/
 	elast[5][NUM],       /*коо-ты    -//-   -//-  эквидистанты*/
 	walk[5][NUM],        /*коэффициенты лин.интерполяции*/

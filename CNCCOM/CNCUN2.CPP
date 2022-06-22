@@ -1,7 +1,6 @@
 #include "cnchard.h"
 #include "cncraz.h"
 #include "cnccdef.h"
-
    INT  kv_x[NUM],	      /*массив значений KV*/
 	prrazg[NUM],   /*масив значений прогр.ускорений*/
 	ptorm[NUM],    /* массив значений прогр. торм. */

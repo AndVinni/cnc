@@ -3,9 +3,7 @@
 /*a:angle.c
 Функция обхода угла
 */
-#define _USE_MATH_DEFINES 
 #include <stdio.h>
-#include <cmath>
 #include "cncraz.h"
 #include "cnccdef.h"
 #include "cnchard.h"

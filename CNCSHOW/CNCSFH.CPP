@@ -69,10 +69,10 @@ switch (method)
 		    else
 		       return ReqAccess(&InDev);
    case SET_EXT:
-      Extention=(STRING)(void _FAR *)data; /* Установка расширения файлов */
+      Extention=(STRING)(void far *)data; /* Установка расширения файлов */
       break;
    case SHOW_DIR:             /* Рисуем каталог */
-      CurentHeader=(STRING)(void _FAR *)data;
+      CurentHeader=(STRING)(void far *)data;
       ShowCatalog(CurentHeader);
       break;
    case NEW_DIR: NewCatalog();
@@ -89,12 +89,12 @@ switch (method)
       OutDev.Stat=(StatDev)atoi(Config[(INT)data++]);
       OutDev.Name=Config[(INT)data];
       break;
-   case COPY_FILE:    return CopFile((STRING)(void _FAR *)data);
+   case COPY_FILE:    return CopFile((STRING)(void far *)data);
    case DELETE_ALL:   DelAll();
       break;
    case DELETE_FILE: DelFile();
       break;
-   case RENAME_FILE: RenFile((STRING)(void _FAR *)data);
+   case RENAME_FILE: RenFile((STRING)(void far *)data);
       break;
    case PROTECT_FILE: ProFile();
       break;

@@ -22,11 +22,11 @@ BYTE StQuKey;  				/* Статус клавиш F<,F>,S<,S> */
 BYTE FCur= 100;				/* Положения переключателя F */
 BYTE SnCur[4]={100,100,100,100};	/* --------- шпинделя */
 
-void interrupt _FAR (*PtrNewVect)(...); /* Рабочая переменная */
-void interrupt _FAR (*Ptroldvect)(...); /* Рабочая переменная */
-void interrupt _FAR (*PtrIbmErr)(...);  /* Указатель на старую программу обр. ош. */
-void interrupt _FAR (*PtrTimer)(...);   /* Указатель на старую программу обр. таймера */
-void interrupt _FAR (*PtrNTimer)(...);  /* Указатель на новую программу обр. таймера */
+void interrupt far (*PtrNewVect)(...); /* Рабочая переменная */
+void interrupt far (*Ptroldvect)(...); /* Рабочая переменная */
+void interrupt far (*PtrIbmErr)(...);  /* Указатель на старую программу обр. ош. */
+void interrupt far (*PtrTimer)(...);   /* Указатель на старую программу обр. таймера */
+void interrupt far (*PtrNTimer)(...);  /* Указатель на новую программу обр. таймера */
 
 STRING *CurentMsg;	/* Меню */
 STRING *Config;   	/* Конфигурация системы */

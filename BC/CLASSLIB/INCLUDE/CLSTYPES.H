@@ -18,19 +18,16 @@
 #include <limits.h>
 #endif
 
-#if defined(__BORLANDC__)
 #pragma option -Vo-
 #if defined( __BCOPT__ ) && !defined( _ALLOW_po )
 #pragma option -po-
 #endif
-#endif
-
 
 typedef unsigned int classType;
 typedef unsigned int hashValueType;
 typedef unsigned int sizeType;
 
-_CLASSDEF(Object);
+_CLASSDEF(Object)
 
 typedef void ( _FAR *iterFuncType )( class Object _FAR &, void _FAR * );
 typedef int ( _FAR *condFuncType )( const class Object _FAR &, void _FAR * );
@@ -99,11 +96,9 @@ enum ClassLib_errors
 
 void ClassLib_error( ClassLib_errors, char _FAR *addstr = 0 );
 
-#if defined(__BORLANDC__)
 #if defined( __BCOPT__ ) && !defined( _ALLOW_po )
 #pragma option -po.
 #endif
 #pragma option -Vo.
 
-#endif
 #endif

@@ -36,6 +36,8 @@ typedef unsigned size_t;
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/*
 void _FAR * _FARFUNC _Cdecl memccpy(void _FAR *__dest, const void _FAR *__src,
                            int __c, size_t __n);
 void _FAR * _FARFUNC _Cdecl memchr(const void _FAR *__s, int __c, size_t __n);
@@ -54,7 +56,7 @@ void        _FARFUNC _Cdecl movmem(const void _FAR *__src, void _FAR *__dest,
                           unsigned __length);
 void        _FARFUNC _Cdecl setmem(void _FAR *__dest,unsigned __length, char __value);
 
-#if __STDC__
+#if !__STDC__
 void  far * _FARCALL cdecl _fmemccpy(void far *__dest, const void far *__src,
                        int __c, size_t __n);
 void  far * _FARCALL cdecl _fmemchr(const void far *__s, int __c, size_t __n);
@@ -72,7 +74,7 @@ void        _FARCALL cdecl _fmovmem(const void far *__src, void far *__dest,
 void        _FARCALL cdecl _fsetmem(void far *__dest, unsigned __length,
                        char __value);
 #endif
-
+!!! */
 #if !defined(__STRING_H)
 /* Intrinsic functions */
 

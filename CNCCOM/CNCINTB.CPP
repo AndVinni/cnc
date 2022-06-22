@@ -16,8 +16,8 @@ BUF_STRUCT *ykz_byf[KBUF];
 INT   _sindex[NUMS];
 		     /*CNCDR-->CNC*/
 
-void (*fway[NMOVEF])(); /*рассчет траектории движения,синхр оси*/
-void  (*sway[NMOVES])(INT i);  /*              шпиндель */
+void (*fway[NMOVEF])(); /*а ббзҐв ва ҐЄв®аЁЁ ¤ўЁ¦Ґ­Ёп,бЁ­еа ®бЁ*/
+void  (*sway[NMOVES])(INT i);  /*              иЇЁ­¤Ґ«м */
 
 
 

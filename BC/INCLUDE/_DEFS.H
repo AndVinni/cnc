@@ -76,7 +76,7 @@
 #    elif defined(__COMPACT__) || defined(__LARGE__)
 #      define _CLASSTYPE  far
 #    else
-#      define _CLASSTYPE 
+#      define _CLASSTYPE  // huge !!!
 #    endif
 #  endif
 #endif    /* __STDC__ */
@@ -84,28 +84,25 @@
 #if defined(_BUILDRTLDLL)
 #  define _FARCALL _export
 #else
-#  define _FARCALL far
-#endif
-
-#if defined(_WIN32)
-#  define huge
-#  define interrupt
-#  define _FAR
+#  define _FARCALL // far !!!
 #endif
 
 #if defined( __cplusplus )
-#  define _PTRDEF(name) typedef name _FAR *P##name;
-#  define _REFDEF(name) typedef name _FAR &R##name;
-#  define _REFPTRDEF(name) typedef name _FAR * _FAR &RP##name;
-#  define _PTRCONSTDEF(name) typedef const name _FAR *PC##name;
-#  define _REFCONSTDEF(name) typedef const name _FAR &RC##name;
-#define     _CLASSDEF(name) \
-            class _CLASSTYPE name ;\
-            _PTRDEF(name) \
-            _REFDEF(name) \
-            _REFPTRDEF(name) \
-            _PTRCONSTDEF(name) \
-            _REFCONSTDEF(name)
+#  define _PTRDEF(name) typedef name _FAR * P##name;
+#  define _REFDEF(name) typedef name _FAR & R##name;
+#  define _REFPTRDEF(name) typedef name _FAR * _FAR & RP##name;
+#  define _PTRCONSTDEF(name) typedef const name _FAR * PC##name;
+#  define _REFCONSTDEF(name) typedef const name _FAR & RC##name;
+#  define _CLASSDEF(name) class _CLASSTYPE name; \
+        _PTRDEF(name) \
+    _REFDEF(name) \
+    _REFPTRDEF(name) \
+    _PTRCONSTDEF(name) \
+    _REFCONSTDEF(name)
+#endif
+
+#if !defined interrupt
+#define interrupt
 #endif
 
 #endif  /* ___DEFS_H */

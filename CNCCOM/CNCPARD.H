@@ -1,7 +1,7 @@
 /*
    cncpard.h
 
-   ╬яpхфхыхэшх ёЄpєъЄєp√ Q - ярpрьхЄpют.
+   Опpеделение стpуктуpы Q - паpаметpов.
 
    Copyright (c) ELMIS Ltd 1993.
 
@@ -76,8 +76,8 @@ struct Serial : public sPhisic
  Serial& operator=( Serial& src );
 };
 
-/* 		╩ырёё ярpрьхЄpют, ъюЄюp√щ эхюсїюфшь
-		фы  pрсюЄ√ яpштюфют яюфрў.
+/* 		Класс паpаметpов, котоpый необходим
+		для pаботы пpиводов подач.
 */
 
 class AxisData

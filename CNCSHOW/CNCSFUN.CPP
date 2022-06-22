@@ -41,14 +41,14 @@ void BackTree(CHAR cod,BYTE step,WORD* modes)
 /* Перезапуск системы BIOS и MS DOS как по включению питания */
 void Boot()
 {
- void _FAR (*strt)(void);
- strt=(void(_FAR*)())MK_FP(POSTSEG,POSTOFS);
+ void far (*strt)(void);
+ strt=(void(far*)())MK_FP(POSTSEG,POSTOFS);
  (*strt)();
 }/* Boot */
 
 
 /* Обработка критических ошибок ДОС */
-void interrupt _FAR IbmError(...)
+void interrupt far IbmError(...)
 {
 union REGS reg;
 enable();
@@ -88,7 +88,7 @@ void SetError(BYTE Num,BYTE Kls,BYTE Ist,BYTE Rem,StatFid BlockFid)
 }
 
 
-void interrupt _FAR NullFun(...)
+void interrupt far NullFun(...)
 {
  TrapEnable();
  geninterrupt(NEWVECTIMER);

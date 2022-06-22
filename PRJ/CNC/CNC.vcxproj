@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;__MSC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>
@@ -153,7 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CNC.APS" />
-    <None Include="cpp.hint" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\CNCCAMP\CNCCAUTO.CPP" />
@@ -226,8 +225,6 @@
     <ClCompile Include="..\..\CNCSHOW\CNCSMAN.CPP" />
     <ClCompile Include="..\..\CNCSHOW\CNCSRMSG.CPP" />
     <ClCompile Include="..\..\CNCSHOW\CNCSTED.CPP" />
-    <ClCompile Include="..\..\CNCSHOW\CNCSTEDC.CPP" />
-    <ClCompile Include="..\..\CNCSHOW\CNCSTIO.CPP" />
     <ClCompile Include="..\..\CNCSHOW\CNCSVAR.CPP" />
     <ClCompile Include="..\..\CNCSHOW\CNCTEDI.CPP" />
     <ClCompile Include="..\..\CNCTIME\CNCTBGN.CPP" />

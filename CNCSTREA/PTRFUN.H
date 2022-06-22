@@ -1,11 +1,9 @@
-/*  prtfun.h - ╬яpхфхыхэш  Єшяр "╙ърчрЄхыш эр ЇєэъЎшш юсpрсюЄъш".
+/*  prtfun.h - Опpеделения типа "Указатели на функции обpаботки".
 
     Copyright (c) 1993 by ELMIS
     All rights reserved.
 */
-#if !defined( __DEFS_H )
-#include <_defs.h>
-#endif
+
 
 #ifndef __PTRFUN_H
 #define __PTRFUN_H
@@ -21,16 +19,16 @@ class DevProRes;
 class DevProTra;
 union Password;
 
-// єърчрЄхыш эр тхъЄюp
-typedef void interrupt _FAR ( InterSerDevice:: *VInt)(...);
+// Указатель на вектоp пpеpывания
+typedef void interrupt _FAR( InterSerDevice:: *VInt)(...);
 
 typedef void interrupt _FAR( *OldVInt)(...);
 
-typedef void _FAR (*VoidFunVoid)(void);
-typedef void _FAR (SerDevice:: *FunSerDev)(void);
-typedef void _FAR (InterSerDevice:: *FunIntDevVoid)(void);
-typedef void _FAR (DevProRes:: *voPointFunDP)(void);
-typedef void _FAR (DevProTra:: *voPointFunDPT)(void);
+typedef void _FAR( *VoidFunVoid)(void);
+typedef void _FAR(SerDevice:: *FunSerDev)(void);
+typedef void _FAR(InterSerDevice:: *FunIntDevVoid)(void);
+typedef void _FAR(DevProRes:: *voPointFunDP)(void);
+typedef void _FAR(DevProTra:: *voPointFunDPT)(void);
 
 #endif
 

@@ -1,12 +1,12 @@
 /*  	cncshow.cpp v01.01
 
-	├юыютэр  яЁюуЁрььр
+	Головная программа
 
-	╧юфяЁюхъЄ: CNCSHOW
-	╧ЁюхъЄ:    ELMIS CNC.
+	Подпроект: CNCSHOW
+	Проект:    ELMIS CNC.
 
 	Copyright (c) ELMIS, 1993
-	┬ёх яЁртр чр∙ш∙хэ√.
+	Все права защищены.
 */
 
 #include <stdio.h>
@@ -28,9 +28,9 @@
 #ifdef DEBUG
 int main()
 {
-	Beginer();
-Loop: Cnc_show();
-	goto Loop;
+ Beginer();
+ Loop: Cnc_show();
+ goto Loop;
 }
 #endif
 
@@ -40,117 +40,117 @@ Loop: Cnc_show();
 
 void Setting(BYTE mode)
 {
-	Flag.DrawEnded = FALSE;		/* ╩рЁЄшэър эх эрЁшёютрэр */
-	Flag.PromtDrawed = FALSE;	/* ╧юфёърчър эх эрЁшёютрэр */
-	Flag.MenuDrawed = FALSE;		/* ╠хэ■ эх эрЁшёютрэю */
-	EraseWind();		     	/* ╬ўш∙рхь юъэю фшэрьшўхёъющ шэфшърЎшш */
-	NormColor();			/* ╬ўш∙рхь ёЄЁюъє яюфёърчюъ */
-	PrintNode(ClrNode);
-	EraseWarning();
-	Mode = mode;			/* ═ют√щ Ёхцшь шэфшърЎшш */
-	if (sstaim Ifset OST_O)		/* ╧хЁхъы■ўхэшх яЁхцшьют ЁрсюЄ√ */
-	{
-		if (Mode == AUTO)
-			prr = Flag.StopEndK ? K_K : Mode;
-		else
-			prr = Mode;
-	}
-	Flag.NotCat = TRUE;		/* ═хюсїюфшью ёючфрЄ№ эют√щ ърЄрыюу */
+ Flag.DrawEnded=FALSE;		/* Картинка не нарисована */
+ Flag.PromtDrawed=FALSE;	/* Подсказка не нарисована */
+ Flag.MenuDrawed=FALSE;		/* Меню не нарисовано */
+ EraseWind();		     	/* Очищаем окно динамической индикации */
+ NormColor();			/* Очищаем строку подсказок */
+ PrintNode(ClrNode);
+ EraseWarning();
+ Mode=mode;			/* Новый режим индикации */
+ if(sstaim Ifset OST_O)		/* Переключение прежимов работы */
+ {
+  if(Mode==AUTO)
+   prr= Flag.StopEndK?K_K:Mode;
+  else
+   prr= Mode;
+ }
+ Flag.NotCat=TRUE;		/* Необходимо создать новый каталог */
 }			/* End Setting */
 
-/* ╧ЁюуЁрььр рэрышчр ъюфр ъырт. эр яхЁхъы■ўхэшх юёэютэ√ї  Ёх-
-   цшьют шэфшърЎшш ёЄрэър ш т√чют ёююЄтхЄёЄтє■∙шї ЇєэъЎшщ
+/* Программа анализа кода клав. на переключение основных  ре-
+   жимов индикации станка и вызов соответствующих функций
 */
 void Swicher(CHAR cod)
 {
-	if (Flag.NoSwitchMode)
-		cod = '\0';
-	switch (cod)
-	{                /* Х╕√° ·√ЁЄ°▒° Є╗ё■иЁ ■╕¤■Є¤╗╡ иїЎ°№■Є*/
-	case MAUTO:  Setting(TAUTO);
-		Cnc_auto(0);
-		break;          /* ▓■ ╕¤┐▓╣ ┤√Ёє ╕▓Ёи■∙ ·Ёи▓°·°*/
-	case MDIAGN: Setting(TDIAGN);
-		Cnc_diag(0);
-		break;          /* Т╗ўЄЁ▓╣ ╕■■▓Єї▓╕▓Є│╛╝│╛ ┤│¤·╢°╛*/
-	case MEDITPR:Setting(TEDITPR);
-		Cnc_editpr(0);
-		break;      /* г╕▓Ё¤■Є°▓╣ ¤■Є╗∙ ▓ї·│╝°∙ иїЎ°№ °¤Ї°·Ё╢°° Mode */
-	case MEDKORR:Setting(TEDKORR);
-		Cnc_edkorr(0);
-		break;
-	case MMANUAL:Setting(TMANUAL);
-		Cnc_manual(0);
-		break;
-	default:            /* Ш¤Ё╖ї Є╗ўЄЁ▓╣ ╕▓Ёи╗∙ иїЎ°№ */
-		switch (Mode)
-		{
-		case TAUTO:Cnc_auto(cod);
-			break;
-		case TDIAGN:Cnc_diag(cod);
-			break;
-		case TEDITPR:Cnc_editpr(cod);
-			break;
-		case TEDKORR:Cnc_edkorr(cod);
-			break;
-		case TMANUAL:Cnc_manual(cod);
-		}
-	}
+if(Flag.NoSwitchMode)
+   cod='\0';
+switch (cod)
+  {                /* Если клавиши выбора основных режимов*/
+  case MAUTO:  Setting(TAUTO);
+	      Cnc_auto(0);
+	      break;          /* то снять флаг старой картики*/
+  case MDIAGN: Setting(TDIAGN);
+	      Cnc_diag(0);
+	      break;          /* Вызвать соответствующую функцию*/
+  case MEDITPR:Setting(TEDITPR);
+	      Cnc_editpr(0);
+	      break;      /* Установить новый текущий режим индикации Mode */
+  case MEDKORR:Setting(TEDKORR);
+	      Cnc_edkorr(0);
+	      break;
+  case MMANUAL:Setting(TMANUAL);
+	      Cnc_manual(0);
+	      break;
+  default :            /* Иначе вызвать старый режим */
+   switch (Mode)
+      {
+      case TAUTO:Cnc_auto(cod);
+	 break;
+      case TDIAGN:Cnc_diag(cod);
+	 break;
+      case TEDITPR:Cnc_editpr(cod);
+	 break;
+      case TEDKORR:Cnc_edkorr(cod);
+	 break;
+      case TMANUAL:Cnc_manual(cod);
+      }
+   }
 }
 
-/*  ├ыртэр  ЇєэъЎш  шэфшърЎшш (тё  шэфшърЎш ) */
+		       /*  Главная функция индикации (вся индикация) */
 void Cnc_show()
 {
-	static BYTE Counter = 0;
+ static BYTE Counter=0;
 
-	CodKey = Inkey();    /* ╧юыєўшЄ№ ъюф ъыртш°ш ё ъыртшрЄєЁ√ шыш шч PLC */
+ CodKey=Inkey();    /* Получить код клавиши с клавиатуры или из PLC */
 
-	if (Flag.Warning And CodKey)   /* ┼ёыш "ЄюЁўшЄ" яЁхфєяЁхцфхэшх */
-		EraseWarning();	       /* ёЄхЁхЄ№ яЁш яхЁтюь эрцрЄшш эр ъыртш°є */
-	  //#ifndef DEBUG
-	  // zapic();
-	  //#endif
-	if (Counter == 2)
-	{
-		StatWindow();      /* ╚эфшЎшЁєхь юъэю ёюёЄю эш  ╙╫╧╙ */
-		Counter = 0;
-	}
-	if (Not Flag.NotWork)
-		Swicher(CodKey);	/* ┬√чют фшэрьшўхёъющ шэфшърЎшш */
-	Counter++;
+ if(Flag.Warning And CodKey)   /* Если "торчит" предупреждение */
+  EraseWarning();	       /* стереть при первом нажатии на клавишу */
+//#ifndef DEBUG
+// zapic();
+//#endif
+ if(Counter==2)
+ {
+  StatWindow();      /* Индицируем окно состояния УЧПУ */
+  Counter=0;
+ }
+ if(Not Flag.NotWork)
+  Swicher(CodKey);	/* Вызов динамической индикации */
+ Counter++;
 
-	if (Kb.ActCodPC)       	/* ┼ёыш ъюф яЁш°хы шч "PLC"*/
-	{
-		BUT_COD Set BIT0;  	/* ╚эЇюЁьшЁєхь PC ўЄю ь√ хую яЁшэ ыш */
-		Kb.ActCodPC = FALSE;	/* ╤эшьрхь Їыру "└ъЄштхэ ъюф шч " PL╤ */
-				  /* ┼ёыш ъюф с√ы эхяЁртшы№э√щ*/
-		BUT_COD = (Flag.StatShow) ? (BUT_COD  BIT1) : (BUT_COD & (~BIT1));
-	}
+ if(Kb.ActCodPC)       	/* Если код пришел из "PLC"*/
+ {
+  BUT_COD Set BIT0;  	/* Информируем PC что мы его приняли */
+  Kb.ActCodPC=FALSE;	/* Снимаем флаг "Активен код из " PLС */
+			/* Если код был неправильный*/
+  BUT_COD=(Flag.StatShow)?(BUT_COD | BIT1):(BUT_COD & (~BIT1));
+ }
 
-	Flag.StatShow = 0;
-	gotoxy(BEGERRSTRX, BEGERRSTRY);
+ Flag.StatShow=0;
+ gotoxy(BEGERRSTRX,BEGERRSTRY);
 }
 
-/* ╘єэъЎш   ухэхЁрЎшш эюьхЁр ЇєэъЎшш шэфшърЎшш */
-/* т чртшёшьюёЄш юЄ ъыртш° ьхэ ■∙шї ърЁЄшэъє */
+	      /* Функция  генерации номера функции индикации */
+		/* в зависимости от клавиш меняющих картинку */
 
-void Swichcod(CHAR cod, WORD* mods)
+void Swichcod (CHAR cod,WORD* mods)
 {
-	register WORD K;       /* ╠эюцшЄхыш фы  ъюЁЁхъЎшш modes */
-			   /* ╩ръющ Ёюёыхфэшщ фхё ЁрчЁ ф т modes чрэ Є? */
-			   /* ╧ЁютхЁшЄ№ cod эр ёютярфхэшх ё F1...F5,FBAK */
-	switch (cod)
-	{
-	case F1: K = 1; Flag.PromtDrawed = FALSE; break;	     /* ╟эрўхэш  ьэюцшЄхы  */
-	case F2: K = 2; Flag.PromtDrawed = FALSE; break;
-	case F3: K = 3; Flag.PromtDrawed = FALSE; break;
-	case F4: K = 4; Flag.PromtDrawed = FALSE; break;
-	case F5: K = 5; Flag.PromtDrawed = FALSE; break;
-	default:return;
-	}
-	NormColor();						/* ╓тхЄ ═юЁьры№э√щ */
-	PrintNode(CurentMsg[K - 1]);  		/* ╬ЄюсЁрчшЄ№ єчхы фхЁхтр шэфшърЎшш */
-	*mods = (*mods) * 10 + K;			    /* ═ют√щ єчхы фхЁхтр шэфшърЎшш */
+ register WORD K;       /* Множители для коррекции modes */
+			/* Какой роследний дес разряд в modes занят? */
+			/* Проверить cod на совпадение с F1...F5,FBAK */
+ switch (cod)
+ {
+  case F1: K=1; Flag.PromtDrawed=FALSE; break;	     /* Значения множителя */
+  case F2: K=2; Flag.PromtDrawed=FALSE; break;
+  case F3: K=3; Flag.PromtDrawed=FALSE; break;
+  case F4: K=4; Flag.PromtDrawed=FALSE; break;
+  case F5: K=5; Flag.PromtDrawed=FALSE; break;
+  default:return;
+ }
+ NormColor();						/* Цвет Нормальный */
+ PrintNode(CurentMsg[K-1]);  		/* Отобразить узел дерева индикации */
+ *mods=(*mods)*10+K;			    /* Новый узел дерева индикации */
 }
 
 
